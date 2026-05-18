@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Innova Tech</title>
+    <meta name="description" content="Contacta con Innova Tech para consultas sobre soluciones de ingeniería eléctrica. Responderemos tu solicitud en 24 horas.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header sticky">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">IT</div>
+                    <span class="logo-text">Innova Tech</span>
+                </div>
+
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                    <a href="servicios.html" class="nav-link">Servicios</a>
+                    <a href="comercial.html" class="nav-link">Comercial</a>
+                    <a href="industrial.html" class="nav-link">Industrial</a>
+                    <a href="utilities.html" class="nav-link">Utilities</a>
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    <a href="empresa.html" class="nav-link">Empresa</a>
+                    <a href="contacto.html" class="btn-primary">Contacto</a>
+                </nav>
+
+                <button class="menu-toggle" id="menuToggle">☰</button>
+            </div>
+
+            <nav class="nav-mobile" id="navMobile" style="display: none;">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="servicios.html" class="nav-link">Servicios</a>
+                <a href="comercial.html" class="nav-link">Comercial</a>
+                <a href="industrial.html" class="nav-link">Industrial</a>
+                <a href="utilities.html" class="nav-link">Utilities</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="empresa.html" class="nav-link">Empresa</a>
+                <a href="contacto.html" class="btn-primary">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Contacta con Nosotros</h1>
+            <p class="hero-subtitle">Estamos listos para ayudarte con tu proyecto eléctrico</p>
+            <p class="hero-description">Completa el formulario y nos pondremos en contacto en un plazo de 24 horas hábiles</p>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;">
+                    <!-- Información de Contacto -->
+                    <div>
+                        <h2 style="color: var(--primary); margin-bottom: 2rem;">Información de Contacto</h2>
+
+                        <div style="margin-bottom: 2.5rem;">
+                            <h3 style="color: var(--primary); margin-bottom: 0.5rem; font-size: 1rem;">📞 Teléfono</h3>
+                            <p style="color: var(--neutral-light); margin: 0;">
+                                <a href="tel:+584245555555" style="color: var(--secondary); text-decoration: none;">+58 (424) 555-5555</a>
+                            </p>
+                        </div>
+
+                        <div style="margin-bottom: 2.5rem;">
+                            <h3 style="color: var(--primary); margin-bottom: 0.5rem; font-size: 1rem;">📧 Email</h3>
+                            <p style="color: var(--neutral-light); margin: 0;">
+                                <a href="mailto:info@innova-tech.com" style="color: var(--secondary); text-decoration: none;">info@innova-tech.com</a>
+                            </p>
+                        </div>
+
+                        <div style="margin-bottom: 2.5rem;">
+                            <h3 style="color: var(--primary); margin-bottom: 0.5rem; font-size: 1rem;">📍 Ubicación</h3>
+                            <p style="color: var(--neutral-light); margin: 0;">
+                                Valencia, Venezuela
+                            </p>
+                        </div>
+
+                        <div style="margin-bottom: 2.5rem;">
+                            <h3 style="color: var(--primary); margin-bottom: 0.5rem; font-size: 1rem;">⏱️ Horario de Atención</h3>
+                            <p style="color: var(--neutral-light); margin: 0;">
+                                Lunes a Viernes: 8:00 AM - 5:00 PM<br>
+                                Emergencias 24/7
+                            </p>
+                        </div>
+
+                        <div style="padding: 1.5rem; background-color: #f0f4ff; border-left: 4px solid var(--primary); border-radius: 6px;">
+                            <p style="color: var(--neutral); margin: 0; font-size: 0.95rem;">
+                                ✓ Respuesta garantizada en 24 horas hábiles<br>
+                                ✓ Consulta técnica sin costo<br>
+                                ✓ Disponibilidad para emergencias
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Formulario de Contacto -->
+                    <div>
+                        <h2 style="color: var(--primary); margin-bottom: 2rem;">Envía tu Solicitud</h2>
+
+                        <form id="contactForm" style="display: flex; flex-direction: column; gap: 1.2rem;">
+                            <div>
+                                <label for="nombre" style="display: block; margin-bottom: 0.5rem; color: var(--primary); font-weight: 600;">Nombre Completo *</label>
+                                <input type="text" id="nombre" name="nombre" required style="width: 100%; padding: 0.75rem; border: 2px solid var(--light-bg); border-radius: 6px; font-size: 1rem; font-family: Arial, sans-serif; box-sizing: border-box;">
+                            </div>
+
+                            <div>
+                                <label for="email" style="display: block; margin-bottom: 0.5rem; color: var(--primary); font-weight: 600;">Email *</label>
+                                <input type="email" id="email" name="email" required style="width: 100%; padding: 0.75rem; border: 2px solid var(--light-bg); border-radius: 6px; font-size: 1rem; font-family: Arial, sans-serif; box-sizing: border-box;">
+                            </div>
+
+                            <div>
+                                <label for="telefono" style="display: block; margin-bottom: 0.5rem; color: var(--primary); font-weight: 600;">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" style="width: 100%; padding: 0.75rem; border: 2px solid var(--light-bg); border-radius: 6px; font-size: 1rem; font-family: Arial, sans-serif; box-sizing: border-box;">
+                            </div>
+
+                            <div>
+                                <label for="empresa" style="display: block; margin-bottom: 0.5rem; color: var(--primary); font-weight: 600;">Empresa</label>
+                                <input type="text" id="empresa" name="empresa" style="width: 100%; padding: 0.75rem; border: 2px solid var(--light-bg); border-radius: 6px; font-size: 1rem; font-family: Arial, sans-serif; box-sizing: border-box;">
+                            </div>
+
+                            <div>
+                                <label for="sector" style="display: block; margin-bottom: 0.5rem; color: var(--primary); font-weight: 600;">Sector *</label>
+                                <select id="sector" name="sector" required style="width: 100%; padding: 0.75rem; border: 2px solid var(--light-bg); border-radius: 6px; font-size: 1rem; font-family: Arial, sans-serif; box-sizing: border-box;">
+                                    <option value="">Selecciona un sector</option>
+                                    <option value="comercial">Comercial</option>
+                                    <option value="industrial">Industrial</option>
+                                    <option value="utilities">Utilities</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="servicio" style="display: block; margin-bottom: 0.5rem; color: var(--primary); font-weight: 600;">Servicio de Interés *</label>
+                                <select id="servicio" name="servicio" required style="width: 100%; padding: 0.75rem; border: 2px solid var(--light-bg); border-radius: 6px; font-size: 1rem; font-family: Arial, sans-serif; box-sizing: border-box;">
+                                    <option value="">Selecciona un servicio</option>
+                                    <option value="subestaciones">Subestaciones Eléctricas</option>
+                                    <option value="instalaciones">Instalaciones de Fuerza</option>
+                                    <option value="mantenimiento">Mantenimiento Especializado</option>
+                                    <option value="diseno">Diseño e Ingeniería</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="mensaje" style="display: block; margin-bottom: 0.5rem; color: var(--primary); font-weight: 600;">Mensaje *</label>
+                                <textarea id="mensaje" name="mensaje" required rows="5" style="width: 100%; padding: 0.75rem; border: 2px solid var(--light-bg); border-radius: 6px; font-size: 1rem; font-family: Arial, sans-serif; box-sizing: border-box; resize: vertical;"></textarea>
+                            </div>
+
+                            <div id="formMessage" style="display: none; padding: 1rem; border-radius: 6px; margin-top: 1rem; text-align: center;"></div>
+
+                            <button type="submit" class="btn-primary" style="padding: 1rem; font-size: 1rem; cursor: pointer;">Enviar Solicitud</button>
+
+                            <p style="font-size: 0.85rem; color: var(--neutral-light); margin: 0;">
+                                * Campos requeridos. Respetamos tu privacidad y no compartiremos tu información.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Responsive Adjustment -->
+            <style>
+                @media (max-width: 768px) {
+                    [style*="grid-template-columns: 1fr 1fr"] {
+                        grid-template-columns: 1fr !important;
+                    }
+                }
+            </style>
+        </div>
+    </section>
+
+    <!-- Preguntas Frecuentes -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="expandable-section">
+                    <div class="expandable-header active">
+                        <div>
+                            <h3 style="margin: 0; display: inline-block;">¿Cuál es el tiempo de respuesta?</h3>
+                        </div>
+                        <span class="expandable-toggle">▼</span>
+                    </div>
+                    <div class="expandable-content" style="display: block;">
+                        <p style="color: var(--neutral-light); margin: 0;">Respondemos todas las solicitudes dentro de 24 horas hábiles. Para emergencias, contáctanos directamente por teléfono.</p>
+                    </div>
+                </div>
+
+                <div class="expandable-section">
+                    <div class="expandable-header">
+                        <div>
+                            <h3 style="margin: 0; display: inline-block;">¿Ofrecen consultoría técnica gratuita?</h3>
+                        </div>
+                        <span class="expandable-toggle">▼</span>
+                    </div>
+                    <div class="expandable-content">
+                        <p style="color: var(--neutral-light); margin: 0;">Sí, ofrecemos una consultoría técnica inicial sin costo para evaluar tu proyecto y proponer soluciones.</p>
+                    </div>
+                </div>
+
+                <div class="expandable-section">
+                    <div class="expandable-header">
+                        <div>
+                            <h3 style="margin: 0; display: inline-block;">¿Atienden emergencias fuera de horario?</h3>
+                        </div>
+                        <span class="expandable-toggle">▼</span>
+                    </div>
+                    <div class="expandable-content">
+                        <p style="color: var(--neutral-light); margin: 0;">Sí, contamos con disponibilidad 24/7 para emergencias eléctricas. Llama a nuestro número de teléfono para reportar una emergencia.</p>
+                    </div>
+                </div>
+
+                <div class="expandable-section">
+                    <div class="expandable-header">
+                        <div>
+                            <h3 style="margin: 0; display: inline-block;">¿Trabajan en todo el país?</h3>
+                        </div>
+                        <span class="expandable-toggle">▼</span>
+                    </div>
+                    <div class="expandable-content">
+                        <p style="color: var(--neutral-light); margin: 0;">Nos especializamos en proyectos en la región, pero podemos evaluar proyectos en otras zonas. Contacta con nosotros para discutir opciones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Innova Tech</h3>
+                    <p>Soluciones integrales en ingeniería eléctrica para comercial, industrial y utilities.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="servicios.html#subestaciones">Subestaciones Eléctricas</a></li>
+                        <li><a href="servicios.html#instalaciones">Instalaciones de Fuerza</a></li>
+                        <li><a href="servicios.html#mantenimiento">Mantenimiento Especializado</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Sectores</h3>
+                    <ul>
+                        <li><a href="comercial.html">Comercial</a></li>
+                        <li><a href="industrial.html">Industrial</a></li>
+                        <li><a href="utilities.html">Utilities</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Contacto</h3>
+                    <p><a href="tel:+584245555555">+58 (424) 555-5555</a></p>
+                    <p><a href="mailto:info@innova-tech.com">info@innova-tech.com</a></p>
+                    <p>Valencia, Venezuela</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Innova Tech. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const nombre = document.getElementById('nombre').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const mensaje = document.getElementById('mensaje').value.trim();
+            const sector = document.getElementById('sector').value.trim();
+            const servicio = document.getElementById('servicio').value.trim();
+
+            const formMessage = document.getElementById('formMessage');
+
+            // Validación básica
+            if (!nombre || !email || !mensaje || !sector || !servicio) {
+                formMessage.style.display = 'block';
+                formMessage.style.backgroundColor = '#fee';
+                formMessage.style.color = 'var(--primary)';
+                formMessage.style.borderLeft = '4px solid #f44';
+                formMessage.textContent = '⚠️ Por favor completa todos los campos requeridos.';
+                return;
+            }
+
+            // Validación de email
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                formMessage.style.display = 'block';
+                formMessage.style.backgroundColor = '#fee';
+                formMessage.style.color = 'var(--primary)';
+                formMessage.style.borderLeft = '4px solid #f44';
+                formMessage.textContent = '⚠️ Por favor ingresa un email válido.';
+                return;
+            }
+
+            // Simulación de envío (en producción, esto iría a un backend)
+            formMessage.style.display = 'block';
+            formMessage.style.backgroundColor = '#efe';
+            formMessage.style.color = 'var(--primary)';
+            formMessage.style.borderLeft = '4px solid #4f4';
+            formMessage.textContent = '✓ ¡Solicitud enviada exitosamente! Te contactaremos en breve.';
+
+            // Limpiar formulario
+            this.reset();
+
+            // Ocultar mensaje después de 5 segundos
+            setTimeout(() => {
+                formMessage.style.display = 'none';
+            }, 5000);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/jeanp/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/2bc13e82-96e2-4037-b4b8-c077860faac2/4d914a2f-d2a0-4d85-9a66-bfb03da3c99e/skills/pptx/**)",
+      "Bash(python scripts/thumbnail.py \"D:\\\\OneDrive - Innova tech\\\\Documentos\\\\Logo innovaTech\\\\Logo Innova Tech Solar.pptx\")",
+      "Bash(python scripts/office/unpack.py \"D:\\\\OneDrive - Innova tech\\\\Documentos\\\\Logo innovaTech\\\\Logo Innova Tech Solar.pptx\" unpacked/)",
+      "Bash(python)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(python -m pptx_extract \"D:\\\\OneDrive - Innova tech\\\\Documentos\\\\Logo innovaTech\\\\Logo Innova Tech Solar.pptx\")",
+      "Read(//d/OneDrive - Innova tech/Documentos/Logo innovaTech/**)",
+      "Bash(python \"C:\\\\Users\\\\jeanp\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\2bc13e82-96e2-4037-b4b8-c077860faac2\\\\4d914a2f-d2a0-4d85-9a66-bfb03da3c99e\\\\skills\\\\pptx\\\\scripts\\\\office\\\\unpack.py\" \"Logo Innova Tech Solar.pptx\" unpacked)",
+      "Bash(python3)",
+      "Bash(pip install *)",
+      "Bash(unzip -q \"Logo Innova Tech Solar.pptx\" -d extracted_logo)",
+      "Bash(find . -name \"*.jpeg\" -o -name \"*.png\" -o -name \"*.jpg\")",
+      "Bash(find ppt/slides -name \"*.xml\" -type f)",
+      "Bash(node -c \"D:\\\\OneDrive - Innova tech\\\\Documentos\\\\02 APP CLAUDE\\\\web-innova\\\\script.js\")",
+      "mcp__Claude_in_Chrome__computer"
+    ]
+  }
+}

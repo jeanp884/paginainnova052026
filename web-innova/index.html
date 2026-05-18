@@ -1,0 +1,1413 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO PRINCIPAL -->
+    <title>Paneles Solares en Chile | Instalación Solar Residencial y Comercial | Innova Tech Solar</title>
+    <meta name="description" content="Instalación de paneles solares en Chile. Sistemas solares on grid, off grid y con baterías. Ahorra hasta $800.000 mensuales. Cotiza con Innova Tech Solar.">
+    <meta name="keywords" content="paneles solares Chile, instalación solar Santiago, kit solar precio Chile, energía solar hogar, sistema fotovoltaico Chile">
+    <meta name="robots" content="index, follow">
+
+    <!-- SEO LOCAL -->
+    <meta name="geo.region" content="CL-RM">
+    <meta name="geo.placename" content="Santiago">
+
+    <!-- CANONICAL -->
+    <link rel="canonical" href="https://innovacorporation.tech/">
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Innova Tech Solar | Paneles Solares en Chile">
+    <meta property="og:description" content="Reduce tu cuenta de luz hasta en un 90% con energía solar.">
+    <meta property="og:image" content="https://innovacorporation.tech/assets/images/kit-reference.jpg">
+    <meta property="og:url" content="https://innovacorporation.tech/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_CL">
+    <meta property="og:site_name" content="Innova Tech Solar">
+
+    <!-- TWITTER / X CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Innova Tech Solar | Paneles Solares en Chile">
+    <meta name="twitter:description" content="Instalación de sistemas solares residenciales y comerciales en Chile. Cotiza tu ahorro con Innova Tech Solar.">
+    <meta name="twitter:image" content="https://innovacorporation.tech/assets/images/kit-reference.jpg">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- FUENTES -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- GOOGLE ADS TAG -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16749731084"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16749731084');
+    </script>
+
+    <!-- SCHEMA -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Innova Tech Solar",
+      "description": "Instalación de paneles solares, sistemas fotovoltaicos on grid, off grid y con baterías para hogares y empresas en Chile.",
+      "telephone": "+56974917428",
+      "email": "contacto@innovacorporation.tech",
+      "url": "https://innovacorporation.tech/",
+      "image": "https://innovacorporation.tech/assets/images/kit-reference.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Providencia 1208, Ofc 1602",
+        "addressLocality": "Santiago",
+        "addressRegion": "Región Metropolitana",
+        "addressCountry": "CL"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Chile"
+      },
+      "sameAs": []
+    }
+    </script>
+
+    <script>
+        // Función global para descargar PDF - método simple sin JavaScript complejo
+        window.descargarPDF = function() {
+            try {
+                const cotizacionElement = document.getElementById('cotizacionResultado');
+                if (!cotizacionElement) {
+                    alert('Error: No se encontró la propuesta de cotización');
+                    return;
+                }
+
+                document.body.classList.add('printing-cotizacion');
+                window.addEventListener('afterprint', function limpiarImpresion() {
+                    document.body.classList.remove('printing-cotizacion');
+                    window.removeEventListener('afterprint', limpiarImpresion);
+                });
+
+                // Usar print del navegador - funciona siempre
+                window.print();
+                console.log('Diálogo de impresión abierto');
+            } catch(error) {
+                console.error('Error:', error);
+                alert('Error: ' + error.message);
+            }
+        };
+    </script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">INNOVA TECH<br>SOLAR</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#kits">Kits</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#cotizaciones">Cotizaciones</a></li>
+                <li><a href="#casos-exito">Casos de Éxito</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="cta-button">Cotizar</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Energía Solar para tu Hogar y Negocio</h1>
+            <p>Sistemas de energía solar confiables con hasta $800.000 de ahorro mensual</p>
+            <button class="btn-primary">Conoce Nuestros Kits</button>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <h3>+50</h3>
+                <p>Instalaciones</p>
+            </div>
+            <div class="stat">
+                <h3>$80M</h3>
+                <p>Ahorrados</p>
+            </div>
+            <div class="stat">
+                <h3>3 Años</h3>
+                <p>Garantía</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kits Section -->
+    <section class="kits" id="kits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Kits Solares</h2>
+                <p>Elige el kit perfecto para tus necesidades de energía</p>
+            </div>
+
+            <div class="kits-grid">
+                <!-- Kit Inicio 3000W -->
+                <div class="kit-card">
+                    <div class="kit-image">
+                        <img src="assets/images/kit-reference.jpg" alt="Kit Inicio 3000W">
+                        <span class="kit-badge">Básico</span>
+                    </div>
+                    <div class="kit-content">
+                        <h3>Kit Inicio 3000W</h3>
+                        <div class="kit-specs">
+                            <p><i class="fas fa-bolt"></i> 1 Inversor Felicity 6.000W</p>
+                            <p><i class="fas fa-sun"></i> 4 Paneles 600W</p>
+                            <p><i class="fas fa-battery-full"></i> Batería Litio 5.000Wh</p>
+                        </div>
+                        <div class="kit-price">
+                            <span class="price">$2.900.000</span>
+                            <span class="currency">CON IVA</span>
+                        </div>
+                        <div class="financing">
+                            <p>Cuota: $150.000 x 12</p>
+                            <p class="savings">Ahorra hasta $70.000/mes</p>
+                        </div>
+                        <button class="btn-secondary">Ver Detalles</button>
+                    </div>
+                </div>
+
+                <!-- Kit Base 4000W -->
+                <div class="kit-card featured">
+                    <div class="kit-image">
+                        <img src="assets/images/kit-reference.jpg" alt="Kit Base 4000W">
+                        <span class="kit-badge featured-badge">Popular</span>
+                    </div>
+                    <div class="kit-content">
+                        <h3>Kit Base 4000W</h3>
+                        <div class="kit-specs">
+                            <p><i class="fas fa-bolt"></i> 1 Inversor Felicity 6.000W</p>
+                            <p><i class="fas fa-sun"></i> 6 Paneles 600W</p>
+                            <p><i class="fas fa-battery-full"></i> Batería Litio 8.000Wh</p>
+                        </div>
+                        <div class="kit-price">
+                            <span class="price">$3.950.000</span>
+                            <span class="currency">CON IVA</span>
+                        </div>
+                        <div class="financing">
+                            <p>Cuota: $200.000 x 12</p>
+                            <p class="savings">Ahorra hasta $100.000/mes</p>
+                        </div>
+                        <button class="btn-primary">Ver Detalles</button>
+                    </div>
+                </div>
+
+                <!-- Kit Smart 5000W -->
+                <div class="kit-card">
+                    <div class="kit-image">
+                        <img src="assets/images/kit-reference.jpg" alt="Kit Smart 5000W">
+                        <span class="kit-badge">Avanzado</span>
+                    </div>
+                    <div class="kit-content">
+                        <h3>Kit Smart 5000W</h3>
+                        <div class="kit-specs">
+                            <p><i class="fas fa-bolt"></i> 1 Inversor Felicity 8.000W</p>
+                            <p><i class="fas fa-sun"></i> 8 Paneles 600W</p>
+                            <p><i class="fas fa-battery-full"></i> Batería Litio 10.000Wh</p>
+                        </div>
+                        <div class="kit-price">
+                            <span class="price">$5.800.000</span>
+                            <span class="currency">CON IVA</span>
+                        </div>
+                        <div class="financing">
+                            <p>Cuota: $300.000 x 12</p>
+                            <p class="savings">Ahorra hasta $140.000/mes</p>
+                        </div>
+                        <button class="btn-secondary">Ver Detalles</button>
+                    </div>
+                </div>
+
+                <!-- Kit Plus 6000W -->
+                <div class="kit-card">
+                    <div class="kit-image">
+                        <img src="assets/images/kit-reference.jpg" alt="Kit Plus 6000W">
+                        <span class="kit-badge">Premium</span>
+                    </div>
+                    <div class="kit-content">
+                        <h3>Kit Plus 6000W</h3>
+                        <div class="kit-specs">
+                            <p><i class="fas fa-bolt"></i> 1 Inversor Felicity 8.000W</p>
+                            <p><i class="fas fa-sun"></i> 10 Paneles 600W</p>
+                            <p><i class="fas fa-battery-full"></i> Batería Litio 15.000Wh</p>
+                        </div>
+                        <div class="kit-price">
+                            <span class="price">$6.300.000</span>
+                            <span class="currency">CON IVA</span>
+                        </div>
+                        <div class="financing">
+                            <p>Cuota: $300.000 x 12</p>
+                            <p class="savings">Ahorra hasta $200.000/mes</p>
+                        </div>
+                        <button class="btn-secondary">Ver Detalles</button>
+                    </div>
+                </div>
+
+                <!-- Kit Power 8.000W -->
+                <div class="kit-card">
+                    <div class="kit-image">
+                        <img src="assets/images/kit-reference.jpg" alt="Kit Power 8.000W">
+                        <span class="kit-badge">Profesional</span>
+                    </div>
+                    <div class="kit-content">
+                        <h3>Kit Power 8.000W</h3>
+                        <div class="kit-specs">
+                            <p><i class="fas fa-bolt"></i> 1 Inversor Felicity 8.000W</p>
+                            <p><i class="fas fa-sun"></i> 12 Paneles 600W</p>
+                            <p><i class="fas fa-battery-full"></i> Batería Litio 15.000Wh</p>
+                        </div>
+                        <div class="kit-price">
+                            <span class="price">$7.400.000</span>
+                            <span class="currency">CON IVA</span>
+                        </div>
+                        <div class="financing">
+                            <p>Cuota: $400.000 x 12</p>
+                            <p class="savings">Ahorra hasta $250.000/mes</p>
+                        </div>
+                        <button class="btn-secondary">Ver Detalles</button>
+                    </div>
+                </div>
+
+                <!-- Kit Pyme 12.000W -->
+                <div class="kit-card">
+                    <div class="kit-image">
+                        <img src="assets/images/kit-reference.jpg" alt="Kit Pyme 12.000W">
+                        <span class="kit-badge">Empresarial</span>
+                    </div>
+                    <div class="kit-content">
+                        <h3>Kit Pyme 12.000W</h3>
+                        <div class="kit-specs">
+                            <p><i class="fas fa-bolt"></i> 1 Inversor Felicity 8.000W</p>
+                            <p><i class="fas fa-sun"></i> 16 Paneles 600W</p>
+                            <p><i class="fas fa-battery-full"></i> 3 Baterías Litio 8.750Wh c/u</p>
+                        </div>
+                        <div class="kit-price">
+                            <span class="price">$12.500.000</span>
+                            <span class="currency">CON IVA</span>
+                        </div>
+                        <div class="financing">
+                            <p>Cuota: $900.000 x 12</p>
+                            <p class="savings">Ahorra hasta $400.000/mes</p>
+                        </div>
+                        <button class="btn-secondary">Ver Detalles</button>
+                    </div>
+                </div>
+
+                <!-- Kit Empresa 15KW -->
+                <div class="kit-card">
+                    <div class="kit-image">
+                        <img src="assets/images/kit-reference.jpg" alt="Kit Empresa 15KW">
+                        <span class="kit-badge">Comercial</span>
+                    </div>
+                    <div class="kit-content">
+                        <h3>Kit Empresa 15KW</h3>
+                        <div class="kit-specs">
+                            <p><i class="fas fa-bolt"></i> 1 Inversor Felicity 12.000W</p>
+                            <p><i class="fas fa-sun"></i> 24 Paneles 600W</p>
+                            <p><i class="fas fa-battery-full"></i> Batería Litio 15.000Wh</p>
+                        </div>
+                        <div class="kit-price">
+                            <span class="price">$21.900.000</span>
+                            <span class="currency">CON IVA</span>
+                        </div>
+                        <div class="financing">
+                            <p>Cuota: $1.500.000 x 12</p>
+                            <p class="savings">Ahorra hasta $800.000/mes</p>
+                        </div>
+                        <button class="btn-secondary">Ver Detalles</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características Section -->
+    <section class="caracteristicas" id="caracteristicas">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Por qué elegir Innova Tech Solar?</h2>
+                <p>Garantía, calidad y ahorro en cada instalación</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Garantía 3 Años</h3>
+                    <p>Protección total en todos nuestros equipos y sistemas</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Instalación Profesional</h3>
+                    <p>Equipo especializado con más de 10 años de experiencia</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>100% Energía Limpia</h3>
+                    <p>Reduce tu huella de carbono y ahorra energía</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Soporte 24/7</h3>
+                    <p>Atención técnica disponible siempre que la necesites</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Trámites Incluidos</h3>
+                    <p>Nosotros nos encargamos de todos los permisos</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-zap"></i>
+                    </div>
+                    <h3>Monitoreo Remoto</h3>
+                    <p>Control en tiempo real de tu sistema solar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ahorro Section -->
+    <section class="ahorro" id="ahorro">
+        <div class="container">
+            <div class="ahorro-content">
+                <div class="ahorro-text">
+                    <h2>Calcula tu Ahorro Mensual</h2>
+                    <p>Descubre cuánto puedes ahorrar con energía solar instalada en tu hogar o negocio</p>
+
+                    <div class="calculator">
+                        <div class="calc-input">
+                            <label>Consumo mensual (kWh)</label>
+                            <input type="number" id="consumo" placeholder="500" value="500">
+                        </div>
+                        <div class="calc-result">
+                            <p>Ahorro estimado:</p>
+                            <h3 id="ahorro-resultado">$70.000/mes</h3>
+                            <p class="annual">Anual: <span id="ahorro-annual">$840.000</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ahorro-image">
+                    <div class="savings-graphic">
+                        <div class="savings-bar">
+                            <div class="bar-fill"></div>
+                        </div>
+                        <p class="savings-text">Ahorra hasta un 85% en tu factura de luz</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Listo para ahorrar?</h2>
+                <p>Contáctanos para una cotización sin compromiso</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Teléfono</h3>
+                    <p>+56 9 7491 7428</p>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>contacto@innovacorporation.tech</p>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Ubicación</h3>
+                    <p>Santiago, Chile</p>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp Business</h3>
+                    <a href="https://api.whatsapp.com/send?phone=56974917428&text=Hola%2C%20quiero%20instalar%20paneles%20solares" class="whatsapp-link" target="_blank">Chat Directo</a>
+                </div>
+            </div>
+
+            <form class="contact-form" action="https://formspree.io/f/xwoqoayx" method="POST">
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu email" required>
+                <input type="tel" name="telefono" placeholder="Tu teléfono" required>
+                <select name="kit" required>
+                    <option value="">Selecciona un kit</option>
+                    <option value="inicio">Kit Inicio 3000W</option>
+                    <option value="base">Kit Base 4000W</option>
+                    <option value="smart">Kit Smart 5000W</option>
+                    <option value="plus">Kit Plus 6000W</option>
+                    <option value="power">Kit Power 8.000W</option>
+                    <option value="pyme">Kit Pyme 12.000W</option>
+                    <option value="empresa">Kit Empresa 15KW</option>
+                </select>
+                <textarea name="mensaje" placeholder="Mensaje adicional" rows="4"></textarea>
+                <div style="font-size: 12px; margin: 15px 0; padding: 10px; background-color: #f0f0f0; border-radius: 8px;">
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="checkbox" name="privacy" required style="margin-right: 10px;">
+                        <span>Acepto la <a href="privacy-policy.html" target="_blank" style="color: #0066cc; text-decoration: underline;">Política de Privacidad</a> y <a href="terms-of-service.html" target="_blank" style="color: #0066cc; text-decoration: underline;">Términos de Servicio</a> de Innova Tech Solar</span>
+                    </label>
+                </div>
+                <button type="submit" class="btn-primary">Enviar Solicitud</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Educación Section -->
+    <section class="educacion" id="educacion">
+        <div class="container">
+            <div class="section-header">
+                <h2>Aprende cómo funcionan los Sistemas Solares</h2>
+                <p>Información profesional para tomar la mejor decisión</p>
+            </div>
+
+            <div class="educacion-grid">
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>On Grid</h3>
+                    <p>Sistema conectado a la red eléctrica. Inyecta energía excedente a la red y compensa tu factura. Sin baterías. Ideal para hogares y negocios con suministro constante.</p>
+                    <ul class="edu-list">
+                        <li>Mayor eficiencia energética</li>
+                        <li>Menor costo inicial</li>
+                        <li>Respaldo de la red pública</li>
+                    </ul>
+                </div>
+
+                <div class="edu-card featured">
+                    <div class="edu-icon">
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3>Off Grid</h3>
+                    <p>Sistema independiente con baterías. No depende de la red eléctrica. Almacena energía para usar en la noche. Ideal para zonas sin acceso a electricidad.</p>
+                    <ul class="edu-list">
+                        <li>Independencia energética total</li>
+                        <li>Funciona 24/7</li>
+                        <li>Perfecto para zonas remotas</li>
+                    </ul>
+                </div>
+
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Días Nublosos</h3>
+                    <p>Los paneles solares siguen generando energía incluso con nubes. La producción disminuye entre 20-50% según la nubosidad. Sistemas inteligentes se adaptan automáticamente.</p>
+                    <ul class="edu-list">
+                        <li>Producción en días nublados</li>
+                        <li>Generación difusa de luz</li>
+                        <li>Sistema efectivo todo el año</li>
+                    </ul>
+                </div>
+
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Mantenimiento</h3>
+                    <p>Mínimo mantenimiento requerido. Limpieza de paneles 1-2 veces al año. Revisión técnica anual. Nuestro equipo se encarga de todo el seguimiento.</p>
+                    <ul class="edu-list">
+                        <li>Limpieza de paneles</li>
+                        <li>Revisión técnica anual</li>
+                        <li>Soporte 24/7 incluido</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cotizaciones Section -->
+    <section class="cotizaciones" id="cotizaciones">
+        <div class="container">
+            <div class="section-header">
+                <h2>Solicita tu Cotización</h2>
+                <p>Ingresa tus datos y obtén una cotización personalizada en PDF</p>
+            </div>
+
+            <div class="cotizacion-container">
+                <form class="cotizacion-form" id="cotizacionForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Nombre Completo *</label>
+                            <input type="text" id="nombreCot" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <input type="email" id="emailCot" placeholder="tu@email.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Teléfono *</label>
+                            <input type="tel" id="telefonoCot" placeholder="+56 9 XXXX XXXX" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Región *</label>
+                            <select id="regionCot" required>
+                                <option value="">Selecciona tu región</option>
+                                <option value="Metropolitana">Región Metropolitana</option>
+                                <option value="Valparaíso">Valparaíso</option>
+                                <option value="Bío Bío">Bío Bío</option>
+                                <option value="Araucanía">Araucanía</option>
+                                <option value="Los Lagos">Los Lagos</option>
+                                <option value="Otra">Otra región</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Gasto Promedio Mensual *</label>
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <input type="number" id="gastoCot" placeholder="500" min="0" required style="flex: 1;">
+                                <select id="tipoGasto" style="padding: 8px 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px;">
+                                    <option value="kwh">kWh</option>
+                                    <option value="pesos">Pesos (CLP)</option>
+                                </select>
+                            </div>
+                            <small>Revisa tu factura de electricidad</small>
+                        </div>
+                        <div class="form-group">
+                            <label>Tipo de Propiedad *</label>
+                            <select id="tipoPropiedad" required>
+                                <option value="">Selecciona</option>
+                                <option value="Hogar">Hogar</option>
+                                <option value="Comercio">Comercio</option>
+                                <option value="Industria">Industria</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group full">
+                        <label>¿Prefieres On Grid u Off Grid? *</label>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="tipoBat" value="On Grid" required> On Grid (Conectado a red)
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="tipoBat" value="Off Grid" required> Off Grid (Independiente)
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group full">
+                        <label>Comentarios Adicionales</label>
+                        <textarea id="comentariosCot" placeholder="Cuéntanos más sobre tu necesidad..." rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Generar Cotización PDF</button>
+                </form>
+
+                <div id="cotizacionResultado" class="cotizacion-resultado" style="display:none; background: white; color: #000;">
+                    <style>
+                        @media print {
+                            .cotizacion-resultado { background: white !important; color: black !important; page-break-after: always; }
+                            #btnDescargarPDF { display: none !important; }
+                            body { background: white !important; }
+                        }
+                        #cotizacionResultado {
+                            font-family: Arial, sans-serif !important;
+                            background: white !important;
+                            color: black !important;
+                            padding: 20px !important;
+                        }
+                        .pdf-header {
+                            background: #0066cc !important;
+                            color: white !important;
+                            padding: 30px !important;
+                            border-radius: 8px !important;
+                            margin-bottom: 25px !important;
+                            text-align: center !important;
+                            page-break-inside: avoid !important;
+                        }
+                        .pdf-header h1 {
+                            margin: 0 !important;
+                            font-size: 28px !important;
+                            margin-bottom: 5px !important;
+                            color: white !important;
+                        }
+                        .pdf-header p {
+                            margin: 0 !important;
+                            opacity: 0.95 !important;
+                            font-size: 14px !important;
+                            color: white !important;
+                        }
+                        .pdf-section {
+                            margin-bottom: 25px !important;
+                            border-bottom: 2px solid #e0e0e0 !important;
+                            padding-bottom: 20px !important;
+                            page-break-inside: avoid !important;
+                        }
+                        .pdf-section h3 {
+                            color: #0066cc !important;
+                            font-size: 16px !important;
+                            margin: 0 0 15px 0 !important;
+                            text-transform: uppercase !important;
+                            letter-spacing: 1px !important;
+                        }
+                        .pdf-grid {
+                            display: grid !important;
+                            grid-template-columns: 1fr 1fr !important;
+                            gap: 15px !important;
+                            margin-bottom: 15px !important;
+                        }
+                        .pdf-item {
+                            background: #f5f5f5 !important;
+                            padding: 12px !important;
+                            border-radius: 4px !important;
+                            border-left: 4px solid #0066cc !important;
+                            color: black !important;
+                        }
+                        .pdf-item-label {
+                            font-size: 12px !important;
+                            color: #666 !important;
+                            text-transform: uppercase !important;
+                            letter-spacing: 0.5px !important;
+                            margin-bottom: 5px !important;
+                        }
+                        .pdf-item-value {
+                            font-size: 18px !important;
+                            font-weight: bold !important;
+                            color: #000 !important;
+                        }
+                        .pdf-full-width {
+                            grid-column: 1 / -1 !important;
+                        }
+                        .pdf-highlight {
+                            background: #fff3cd !important;
+                            border-left-color: #ffc107 !important;
+                        }
+                        .pdf-footer {
+                            background: #f0f0f0 !important;
+                            padding: 20px !important;
+                            border-radius: 4px !important;
+                            font-size: 12px !important;
+                            color: #666 !important;
+                            page-break-inside: avoid !important;
+                        }
+                        .pdf-footer p {
+                            margin: 8px 0 !important;
+                        }
+                        .quote-topline {
+                            display: grid !important;
+                            grid-template-columns: 1.2fr 0.8fr !important;
+                            gap: 18px !important;
+                            margin-bottom: 22px !important;
+                            align-items: stretch !important;
+                        }
+                        .quote-brand {
+                            background: #0f172a !important;
+                            color: white !important;
+                            padding: 22px !important;
+                            border-radius: 8px !important;
+                        }
+                        .quote-brand h1 {
+                            margin: 0 !important;
+                            font-size: 28px !important;
+                            color: white !important;
+                            letter-spacing: 0.5px !important;
+                        }
+                        .quote-brand p,
+                        .quote-meta p {
+                            margin: 5px 0 !important;
+                            font-size: 13px !important;
+                        }
+                        .quote-meta {
+                            border: 2px solid #e5e7eb !important;
+                            border-radius: 8px !important;
+                            padding: 18px !important;
+                            background: #f8fafc !important;
+                        }
+                        .quote-meta strong {
+                            color: #0066cc !important;
+                        }
+                        .quote-summary {
+                            display: grid !important;
+                            grid-template-columns: repeat(3, 1fr) !important;
+                            gap: 12px !important;
+                            margin-bottom: 22px !important;
+                        }
+                        .quote-summary-card {
+                            background: #f8fafc !important;
+                            border: 1px solid #e5e7eb !important;
+                            border-top: 4px solid #0066cc !important;
+                            border-radius: 8px !important;
+                            padding: 14px !important;
+                        }
+                        .quote-summary-card span {
+                            display: block !important;
+                            color: #64748b !important;
+                            font-size: 11px !important;
+                            text-transform: uppercase !important;
+                            letter-spacing: 0.6px !important;
+                            margin-bottom: 5px !important;
+                        }
+                        .quote-summary-card strong {
+                            display: block !important;
+                            color: #0f172a !important;
+                            font-size: 18px !important;
+                        }
+                        .quote-table {
+                            width: 100% !important;
+                            border-collapse: collapse !important;
+                            margin-top: 8px !important;
+                            font-size: 13px !important;
+                        }
+                        .quote-table th {
+                            background: #0066cc !important;
+                            color: white !important;
+                            text-align: left !important;
+                            padding: 10px !important;
+                        }
+                        .quote-table td {
+                            border: 1px solid #e5e7eb !important;
+                            padding: 10px !important;
+                            vertical-align: top !important;
+                            color: #111827 !important;
+                        }
+                        .quote-table tr:nth-child(even) td {
+                            background: #f8fafc !important;
+                        }
+                        .quote-notes {
+                            display: grid !important;
+                            grid-template-columns: 1fr 1fr !important;
+                            gap: 14px !important;
+                        }
+                        .quote-note {
+                            background: #f8fafc !important;
+                            border-left: 4px solid #ff9500 !important;
+                            border-radius: 6px !important;
+                            padding: 12px !important;
+                            color: #111827 !important;
+                            font-size: 13px !important;
+                        }
+                    </style>
+
+                    <div class="quote-topline">
+                        <div class="quote-brand">
+                            <h1>Innova Tech Solar</h1>
+                            <p>Propuesta técnico-comercial de sistema solar fotovoltaico</p>
+                            <p>Providencia 1208, Ofc 1602, Providencia</p>
+                        </div>
+                        <div class="quote-meta">
+                            <p><strong>Cotización:</strong> <span id="resNumeroCotizacion"></span></p>
+                            <p><strong>Fecha:</strong> <span id="resultadoFecha"></span></p>
+                            <p><strong>Validez:</strong> 30 días</p>
+                            <p><strong>Ejecutivo:</strong> Innova Tech Solar</p>
+                        </div>
+                    </div>
+
+                    <div class="quote-summary">
+                        <div class="quote-summary-card">
+                            <span>Kit recomendado</span>
+                            <strong id="resKitResumen"></strong>
+                        </div>
+                        <div class="quote-summary-card">
+                            <span>Inversión total</span>
+                            <strong id="resPrecioResumen"></strong>
+                        </div>
+                        <div class="quote-summary-card">
+                            <span>Ahorro estimado</span>
+                            <strong id="resAhorroResumen"></strong>
+                        </div>
+                    </div>
+
+                    <!-- Información del Cliente -->
+                    <div class="pdf-section">
+                        <h3>Información del Cliente</h3>
+                        <div class="pdf-grid">
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">Nombre</div>
+                                <div class="pdf-item-value" id="resNombre"></div>
+                            </div>
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">Teléfono</div>
+                                <div class="pdf-item-value" style="font-size: 14px; color: #0066cc;" id="resClienteTelefono"></div>
+                            </div>
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">Email</div>
+                                <div class="pdf-item-value" style="font-size: 14px; color: #0066cc;" id="resClienteEmail"></div>
+                            </div>
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">Región</div>
+                                <div class="pdf-item-value" id="resClienteRegion"></div>
+                            </div>
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">Tipo de propiedad</div>
+                                <div class="pdf-item-value" id="resTipoPropiedad"></div>
+                            </div>
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">Tipo de sistema</div>
+                                <div class="pdf-item-value" id="resTipoSistema"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Propuesta de Sistema -->
+                    <div class="pdf-section">
+                        <h3>Propuesta de Sistema Solar</h3>
+                        <div class="pdf-grid">
+                            <div class="pdf-item pdf-highlight">
+                                <div class="pdf-item-label">Kit Recomendado</div>
+                                <div class="pdf-item-value" style="font-size: 20px; color: #ff9800;" id="resKit"></div>
+                            </div>
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">Consumo Mensual</div>
+                                <div class="pdf-item-value" id="resGasto"></div>
+                            </div>
+                            <div class="pdf-item pdf-full-width">
+                                <div class="pdf-item-label">Alcance del sistema</div>
+                                <div class="pdf-item-value" style="font-size: 14px;" id="resAlcanceSistema"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pdf-section">
+                        <h3>Desglose Técnico de Componentes</h3>
+                        <table class="quote-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 12%;">Cantidad</th>
+                                    <th style="width: 24%;">Componente</th>
+                                    <th>Detalle técnico incluido</th>
+                                </tr>
+                            </thead>
+                            <tbody id="resComponentes"></tbody>
+                        </table>
+                    </div>
+
+                    <!-- Análisis Financiero -->
+                    <div class="pdf-section">
+                        <h3>Análisis Financiero</h3>
+                        <div class="pdf-grid">
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">Inversión Total</div>
+                                <div class="pdf-item-value" style="color: #d32f2f;" id="resPrecio"></div>
+                            </div>
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">Ahorro Mensual</div>
+                                <div class="pdf-item-value" style="color: #388e3c;" id="resAhorro"></div>
+                            </div>
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">Período de Retorno</div>
+                                <div class="pdf-item-value" style="color: #1976d2;" id="resRetorno"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pdf-section">
+                        <h3>Condiciones y Observaciones</h3>
+                        <div class="quote-notes">
+                            <div class="quote-note">
+                                <strong>Incluye:</strong> suministro de componentes principales, instalación profesional, estructura de montaje, protecciones, canalización estándar y puesta en marcha.
+                            </div>
+                            <div class="quote-note">
+                                <strong>Observaciones del cliente:</strong> <span id="resComentarios">Sin observaciones adicionales.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Información de la Empresa -->
+                    <div class="pdf-section">
+                        <h3>Información de Innova Tech Solar</h3>
+                        <div class="pdf-grid">
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">Empresa</div>
+                                <div class="pdf-item-value">Innova Tech SPA</div>
+                            </div>
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">RUT</div>
+                                <div class="pdf-item-value">78.006.951-1</div>
+                            </div>
+                            <div class="pdf-item pdf-full-width">
+                                <div class="pdf-item-label">Dirección</div>
+                                <div class="pdf-item-value" style="font-size: 14px;">Providencia 1208, Ofc 1602, Providencia</div>
+                            </div>
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">Región</div>
+                                <div class="pdf-item-value">Región Metropolitana</div>
+                            </div>
+                            <div class="pdf-item">
+                                <div class="pdf-item-label">Teléfono</div>
+                                <div class="pdf-item-value" style="color: #0066cc; font-size: 14px;">+56 9 7491 7428</div>
+                            </div>
+                            <div class="pdf-item pdf-full-width">
+                                <div class="pdf-item-label">Email</div>
+                                <div class="pdf-item-value" style="color: #0066cc; font-size: 14px;">contacto@innovacorporation.tech</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="pdf-footer">
+                        <p><strong>Validez de la cotización:</strong> 30 días desde la fecha de emisión</p>
+                        <p><strong>Nota:</strong> Esta cotización incluye todos los componentes del sistema, instalación y garantía de 3 años.</p>
+                        <p style="margin-top: 15px; text-align: center; color: #999;">Innova Tech Solar - Soluciones de Energía Solar • © 2026</p>
+                    </div>
+
+                    <button type="button" id="btnDescargarPDF" class="btn-primary" style="margin-top: 20px; width: 100%; padding: 12px;" onclick="descargarPDF()">Descargar PDF</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        window.descargarPDF = function() {
+            const cotizacionElement = document.getElementById('cotizacionResultado');
+            if (!cotizacionElement) {
+                alert('Error: No se encontró la propuesta de cotización');
+                return;
+            }
+            document.body.classList.add('printing-cotizacion');
+            window.addEventListener('afterprint', function limpiarImpresion() {
+                document.body.classList.remove('printing-cotizacion');
+                window.removeEventListener('afterprint', limpiarImpresion);
+            });
+            window.print();
+        };
+    </script>
+
+    <!-- Casos de Éxito Section -->
+    <section class="casos-exito" id="casos-exito">
+        <div class="container">
+            <div class="section-header">
+                <h2>Casos de Éxito</h2>
+                <p>Mira cómo Innova Tech Solar ha transformado negocios y hogares</p>
+            </div>
+
+            <div class="casos-grid">
+                <div class="caso-card">
+                    <div class="caso-header">
+                        <h3>Casa Familiar</h3>
+                        <span class="caso-badge">Residencial</span>
+                    </div>
+                    <div class="caso-body">
+                        <p class="caso-descripcion">Familia de 5 miembros en Puente Alto</p>
+                        <div class="caso-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Ahorro Mensual</span>
+                                <span class="stat-value">$85.000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Kit Instalado</span>
+                                <span class="stat-value">Base 4000W</span>
+                            </div>
+                        </div>
+                        <p class="caso-testimonial">"Desde el primer mes notamos la diferencia en nuestra factura. Un servicio excelente de principio a fin."</p>
+                        <p class="caso-autor">- Juan Pérez, Cliente</p>
+                    </div>
+                </div>
+
+                <div class="caso-card featured">
+                    <div class="caso-header">
+                        <h3>Comercio Local</h3>
+                        <span class="caso-badge featured-badge">Comercial</span>
+                    </div>
+                    <div class="caso-body">
+                        <p class="caso-descripcion">Negocio de distribución en San Bernardo</p>
+                        <div class="caso-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Ahorro Mensual</span>
+                                <span class="stat-value">$420.000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Kit Instalado</span>
+                                <span class="stat-value">Smart 5000W</span>
+                            </div>
+                        </div>
+                        <p class="caso-testimonial">"Mejoramos nuestra rentabilidad de forma considerable. El equipo fue muy profesional."</p>
+                        <p class="caso-autor">- Carlos Rojas, Empresario</p>
+                    </div>
+                </div>
+
+                <div class="caso-card">
+                    <div class="caso-header">
+                        <h3>Conjunto Residencial</h3>
+                        <span class="caso-badge">Residencial</span>
+                    </div>
+                    <div class="caso-body">
+                        <p class="caso-descripcion">Conjunto Residencial en Padre Hurtado</p>
+                        <div class="caso-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Ahorro Mensual</span>
+                                <span class="stat-value">$850.000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Kit Instalado</span>
+                                <span class="stat-value">Empresa 15KW</span>
+                            </div>
+                        </div>
+                        <p class="caso-testimonial">"Solución integral para la comunidad. Ahorro significativo y sistema confiable."</p>
+                        <p class="caso-autor">- Roberto Martínez, Administrador</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Innova Tech Solar</h4>
+                    <p>Transformando espacios con energía renovable</p>
+                    <p style="font-size: 12px; margin-top: 10px;">
+                        <strong>WhatsApp Business:</strong><br>
+                        <a href="https://wa.me/56974917428" style="color: #0066cc; text-decoration: none;">+56 9 7491 7428</a>
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#kits">Kits</a></li>
+                        <li><a href="#caracteristicas">Características</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="privacy-policy.html" style="color: #666;">Política de Privacidad</a></li>
+                        <li><a href="terms-of-service.html" style="color: #666;">Términos de Servicio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Innova Tech Solar. Todos los derechos reservados.</p>
+                <p style="font-size: 12px; margin-top: 10px; color: #999;">
+                    Cumplimiento: Ley N° 19.628 (Protección de Datos, Chile) | Términos de Meta/WhatsApp Business
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Kit Details Modal -->
+    <script>
+        // Initialize kits data
+        window.kitsData = {
+            0: { name: 'Kit Inicio 3000W', precio: 2900000, cuota: 150000, ahorro: 70000, specs: ['1 Inversor Felicity 6.000W', '4 Paneles 600W', 'Batería Litio 5.000Wh', 'Controlador MPPT 60A', 'Cables y conectores UV', 'Estructura de montaje'] },
+            1: { name: 'Kit Base 4000W', precio: 3950000, cuota: 200000, ahorro: 100000, specs: ['1 Inversor Felicity 6.000W', '6 Paneles 600W', 'Batería Litio 8.000Wh', 'Controlador MPPT 60A', 'Cables y conectores UV', 'Estructura de montaje', 'Sistema de monitoreo'] },
+            2: { name: 'Kit Smart 5000W', precio: 5800000, cuota: 300000, ahorro: 140000, specs: ['1 Inversor Felicity 8.000W', '8 Paneles 600W', 'Batería Litio 10.000Wh', 'Controlador MPPT 80A', 'Cables y conectores UV', 'Estructura de montaje', 'Sistema de monitoreo avanzado', 'App de control remoto'] },
+            3: { name: 'Kit Plus 6000W', precio: 6300000, cuota: 300000, ahorro: 200000, specs: ['1 Inversor Felicity 8.000W', '10 Paneles 600W', 'Batería Litio 15.000Wh', 'Controlador MPPT 80A', 'Cables y conectores UV', 'Estructura de montaje', 'Sistema de monitoreo en tiempo real', 'App y panel de control', 'Protección contra sobrecarga'] },
+            4: { name: 'Kit Power 8.000W', precio: 7400000, cuota: 400000, ahorro: 250000, specs: ['1 Inversor Felicity 8.000W', '12 Paneles 600W', 'Batería Litio 15.000Wh', 'Juego de estructura coplanar a techo', '2 Tableros de protecciones', 'Canalización hasta 20 metros', 'Sistema de monitoreo completo'] },
+            5: { name: 'Kit Pyme 12.000W', precio: 12500000, cuota: 900000, ahorro: 400000, specs: ['1 Inversor Felicity 8.000W', '16 Paneles 600W', '3 Baterías de Litio 8.750Wh c/u', 'Juego de estructura coplanar a techo', '2 Tableros de protecciones', 'Canalización hasta 20 metros', 'Sistema de monitoreo industrial', 'Protección integral redundante'] },
+            6: { name: 'Kit Empresa 15KW', precio: 21900000, cuota: 1500000, ahorro: 800000, specs: ['1 Inversor Felicity 12.000W', '24 Paneles 600W', 'Batería Litio 15.000Wh', 'Controlador MPPT 100A', 'Sistema de respaldo comercial', 'Estructura de montaje reforzada', 'Sistema de monitoreo industrial', 'Panel de control avanzado', 'Protección integral y redundancia'] }
+        };
+    </script>
+    <div id="kitModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <h2 id="modalKitName"></h2>
+                <div class="modal-grid">
+                    <div class="modal-section">
+                        <h3>Especificaciones Técnicas</h3>
+                        <ul id="modalSpecs" class="specs-list"></ul>
+                    </div>
+                    <div class="modal-section">
+                        <h3>Información de Precios</h3>
+                        <div class="price-info">
+                            <div class="price-item">
+                                <span>Precio Total:</span>
+                                <strong id="modalPrice"></strong>
+                            </div>
+                            <div class="price-item">
+                                <span>Cuota Mensual:</span>
+                                <strong id="modalPayment"></strong>
+                            </div>
+                            <div class="price-item">
+                                <span>Ahorro Mensual:</span>
+                                <strong id="modalSavings" class="savings-highlight"></strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p class="modal-note">Incluye instalación profesional y 3 años de garantía</p>
+                    <button class="btn-primary modal-cta">Solicitar Cotización</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Ensure kits object is defined (fallback if script.js fails)
+        if (typeof window.kits === 'undefined' || Object.keys(window.kits || {}).length === 0) {
+            window.kits = {
+                0: { name: 'Kit Inicio 3000W', gasto: 300, precio: 2900000, ahorro: 70000, specs: ['1 Inversor Felicity 6.000W', '4 Paneles 600W', 'Batería Litio 5.000Wh', 'Controlador MPPT 60A', 'Cables y conectores UV', 'Estructura de montaje'], cuota: 150000 },
+                1: { name: 'Kit Base 4000W', gasto: 500, precio: 3950000, ahorro: 100000, specs: ['1 Inversor Felicity 6.000W', '6 Paneles 600W', 'Batería Litio 8.000Wh', 'Controlador MPPT 60A', 'Cables y conectores UV', 'Estructura de montaje', 'Sistema de monitoreo'], cuota: 200000 },
+                2: { name: 'Kit Smart 5000W', gasto: 800, precio: 5800000, ahorro: 140000, specs: ['1 Inversor Felicity 8.000W', '8 Paneles 600W', 'Batería Litio 10.000Wh', 'Controlador MPPT 80A', 'Cables y conectores UV', 'Estructura de montaje', 'Sistema de monitoreo avanzado', 'App de control remoto'], cuota: 300000 },
+                3: { name: 'Kit Plus 6000W', gasto: 1000, precio: 6300000, ahorro: 200000, specs: ['1 Inversor Felicity 8.000W', '10 Paneles 600W', 'Batería Litio 15.000Wh', 'Controlador MPPT 80A', 'Cables y conectores UV', 'Estructura de montaje', 'Sistema de monitoreo en tiempo real', 'App y panel de control', 'Protección contra sobrecarga'], cuota: 300000 },
+                4: { name: 'Kit Empresa 15KW', gasto: 1500, precio: 21900000, ahorro: 800000, specs: ['1 Inversor Felicity 12.000W', '24 Paneles 600W', 'Batería Litio 15.000Wh', 'Controlador MPPT 100A', 'Sistema de respaldo comercial', 'Estructura de montaje reforzada', 'Sistema de monitoreo industrial', 'Panel de control avanzado', 'Protección integral y redundancia'], cuota: 1500000 }
+            };
+            window.getRecommendedKit = function(gasto) {
+                for (let [key, kit] of Object.entries(window.kits)) {
+                    if (gasto <= kit.gasto) return { index: key, ...kit };
+                }
+                return { index: 4, ...window.kits[4] };
+            };
+            console.log('Kits object restored from fallback');
+        }
+
+        // Setup form handler fallback
+        let cotizacionFormElement = document.getElementById('cotizacionForm');
+        if (cotizacionFormElement && !cotizacionFormElement._handlerAttached) {
+            cotizacionForm._handlerAttached = true;
+            cotizacionForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                try {
+                    const ELECTRICITY_RATE_COTI = 140;
+                    const nombre = document.getElementById('nombreCot').value;
+                    const email = document.getElementById('emailCot').value;
+                    const telefono = document.getElementById('telefonoCot').value;
+                    const region = document.getElementById('regionCot').value;
+                    const gastoValor = parseFloat(document.getElementById('gastoCot').value);
+                    const tipoGasto = document.getElementById('tipoGasto').value;
+                    const tipoPropiedad = document.getElementById('tipoPropiedad').value;
+                    const tipoBat = document.querySelector('input[name="tipoBat"]:checked').value;
+                    const comentarios = document.getElementById('comentariosCot').value;
+
+                    let gastoKwh = gastoValor;
+                    if (tipoGasto === 'pesos') {
+                        gastoKwh = Math.round(gastoValor / ELECTRICITY_RATE_COTI);
+                    }
+
+                    const kit = window.getRecommendedKit(gastoKwh);
+                    const ahorro = Math.round(gastoKwh * ELECTRICITY_RATE_COTI);
+                    const retorno = Math.round((kit.precio / ahorro) / 12);
+
+                    document.getElementById('resNombre').textContent = nombre;
+                    document.getElementById('resClienteTelefono').textContent = telefono;
+                    document.getElementById('resClienteEmail').textContent = email;
+                    document.getElementById('resClienteRegion').textContent = region;
+                    const gastoTexto = tipoGasto === 'pesos'
+                        ? '$' + gastoValor.toLocaleString('es-CL') + ' (' + gastoKwh + ' kWh)'
+                        : gastoValor + ' kWh/mes';
+                    document.getElementById('resGasto').textContent = gastoTexto;
+                    document.getElementById('resKit').textContent = kit.name + ' (' + tipoBat + ')';
+                    document.getElementById('resPrecio').textContent = '$' + kit.precio.toLocaleString('es-CL');
+                    document.getElementById('resAhorro').textContent = '$' + ahorro.toLocaleString('es-CL') + '/mes';
+                    document.getElementById('resRetorno').textContent = retorno + ' meses (~' + Math.round(retorno/12) + ' años)';
+                    document.getElementById('resultadoFecha').textContent = 'Propuesta generada el ' + new Date().toLocaleDateString('es-CL');
+
+                    window.cotizacionData = {
+                        nombre, email, telefono, region, gasto: gastoKwh, gastoOriginal: gastoValor, tipoGasto,
+                        tipoPropiedad, tipoBat, comentarios,
+                        kit: kit.name, precio: kit.precio, ahorro, retorno, fecha: new Date().toLocaleDateString('es-CL'),
+                        empresaRut: '78.006.951-1',
+                        empresaNombre: 'Innova Tech SPA',
+                        empresaDireccion: 'Providencia 1208, Ofc 1602, Providencia',
+                        empresaRegion: 'Región Metropolitana',
+                        empresaTelefono: '+56 9 7491 7428',
+                        empresaEmail: 'contacto@innovacorporation.tech'
+                    };
+
+                    document.getElementById('cotizacionResultado').style.display = 'block';
+                    document.getElementById('cotizacionResultado').scrollIntoView({ behavior: 'smooth' });
+                    console.log('Cotización generada desde fallback');
+                    console.log('window.cotizacionData establecido:', window.cotizacionData);
+                } catch(error) {
+                    console.error('Error:', error);
+                    alert('Error al generar cotización: ' + error.message);
+                }
+                return false;
+            });
+        }
+    </script>
+    <script>
+        // Animated counter for statistics
+        function animateCounter(element, target, duration = 2000) {
+            let current = 0;
+            const increment = target / (duration / 16);
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    element.textContent = target;
+                    clearInterval(timer);
+                } else {
+                    element.textContent = Math.floor(current);
+                }
+            }, 16);
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const stats = document.querySelectorAll('.hero-stats .stat h3');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && !entry.target.dataset.animated) {
+                        entry.target.dataset.animated = 'true';
+                        const text = entry.target.textContent.trim();
+                        if (text === '+50') {
+                            let current = 0;
+                            const increment = 50 / (2000 / 16);
+                            const timer = setInterval(() => {
+                                current += increment;
+                                if (current >= 50) {
+                                    entry.target.textContent = '+50';
+                                    clearInterval(timer);
+                                } else {
+                                    entry.target.textContent = '+' + Math.floor(current);
+                                }
+                            }, 16);
+                        }
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            stats.forEach(stat => observer.observe(stat));
+        });
+
+        // Hero button scroll to kits
+        document.addEventListener('DOMContentLoaded', function() {
+            const heroBtn = document.querySelector('.hero .btn-primary');
+            if (heroBtn) {
+                heroBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const kitsSection = document.getElementById('kits');
+                    if (kitsSection) {
+                        kitsSection.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            }
+        });
+
+        // Modal initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('kitModal');
+            const modalClose = document.querySelector('.modal-close');
+            const kitsData = window.kitsData;
+
+            function openKitModal(kitIndex) {
+                const kit = kitsData[kitIndex];
+                if (!kit) return;
+
+                document.getElementById('modalKitName').textContent = kit.name;
+
+                const specsList = document.getElementById('modalSpecs');
+                specsList.innerHTML = '';
+                kit.specs.forEach(spec => {
+                    const li = document.createElement('li');
+                    li.textContent = spec;
+                    specsList.appendChild(li);
+                });
+
+                document.getElementById('modalPrice').textContent = '$' + kit.precio.toLocaleString('es-CL');
+                document.getElementById('modalPayment').textContent = '$' + kit.cuota.toLocaleString('es-CL');
+                document.getElementById('modalSavings').textContent = '$' + kit.ahorro.toLocaleString('es-CL') + '/mes';
+
+                modal.classList.add('show');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeKitModal() {
+                modal.classList.remove('show');
+                document.body.style.overflow = 'auto';
+            }
+
+            // Close modal when clicking X
+            if (modalClose) {
+                modalClose.addEventListener('click', closeKitModal);
+            }
+
+            // Close modal when clicking outside
+            window.addEventListener('click', function(event) {
+                if (event.target === modal) {
+                    closeKitModal();
+                }
+            });
+
+            // Add event listeners to all "Ver Detalles" buttons
+            document.querySelectorAll('.kit-card').forEach((card, index) => {
+                const button = card.querySelector('.btn-secondary, .btn-primary');
+                if (button && !button.classList.contains('modal-initialized')) {
+                    button.classList.add('modal-initialized');
+                    button.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        openKitModal(index);
+                    });
+                }
+            });
+
+            // Handle "Solicitar Cotización" button in modal
+            const modalCta = document.querySelector('.modal-cta');
+            if (modalCta) {
+                modalCta.addEventListener('click', function() {
+                    closeKitModal();
+                    const cotizacionSection = document.getElementById('cotizaciones');
+                    if (cotizacionSection) {
+                        cotizacionSection.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            }
+        });
+    </script>
+    <script>
+        window.descargarPDF = function() {
+            const cotizacionElement = document.getElementById('cotizacionResultado');
+            if (!cotizacionElement || cotizacionElement.style.display === 'none') {
+                alert('Primero genera una cotización para poder descargarla en PDF.');
+                return;
+            }
+
+            const cotizacionClone = cotizacionElement.cloneNode(true);
+            const printButton = cotizacionClone.querySelector('#btnDescargarPDF');
+            if (printButton) {
+                printButton.remove();
+            }
+
+            const codigoCotizacion = document.getElementById('resNumeroCotizacion')?.textContent?.trim() || 'cotizacion';
+            const nombreArchivo = `Cotizacion-${codigoCotizacion}`.replace(/[\\/:*?"<>|]/g, '-');
+
+            sessionStorage.setItem('innovaQuoteHtml', cotizacionClone.outerHTML);
+            sessionStorage.setItem('innovaQuoteFileName', nombreArchivo);
+
+            const printWindow = window.open('cotizacion-print.html', '_blank');
+            if (!printWindow) {
+                alert('No se pudo abrir la ventana de impresión. Permite ventanas emergentes para descargar la cotización.');
+            }
+        };
+    </script>
+</body>
+</html>
+

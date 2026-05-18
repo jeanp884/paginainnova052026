@@ -1,0 +1,197 @@
+<!-- SVG Images - Profesionales para Innova Tech -->
+
+<!-- Substation (30 MVA / 138 kV) -->
+<svg id="substation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F0F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D0E0F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#skyGrad)"/>
+  <!-- Ground -->
+  <rect y="240" width="400" height="60" fill="#8B9D5F"/>
+  <!-- Main structure -->
+  <rect x="80" y="100" width="240" height="140" fill="none" stroke="#1F4788" stroke-width="3"/>
+  <!-- Transformer 1 -->
+  <rect x="100" y="120" width="50" height="60" fill="#FF8C00" rx="3"/>
+  <text x="125" y="155" font-size="10" fill="white" text-anchor="middle" font-weight="bold">T1</text>
+  <!-- Transformer 2 -->
+  <rect x="250" y="120" width="50" height="60" fill="#FF8C00" rx="3"/>
+  <text x="275" y="155" font-size="10" fill="white" text-anchor="middle" font-weight="bold">T2</text>
+  <!-- Control panel -->
+  <rect x="170" y="130" width="60" height="50" fill="#2E75B6" rx="3"/>
+  <circle cx="185" cy="145" r="4" fill="#90EE90"/>
+  <circle cx="200" cy="145" r="4" fill="#FFD700"/>
+  <circle cx="215" cy="145" r="4" fill="#FF6B6B"/>
+  <!-- Cables -->
+  <line x1="100" y1="120" x2="100" y2="80" stroke="#1F4788" stroke-width="2"/>
+  <line x1="300" y1="120" x2="300" y2="80" stroke="#1F4788" stroke-width="2"/>
+  <line x1="200" y1="130" x2="200" y2="90" stroke="#2E75B6" stroke-width="1.5"/>
+  <!-- Title -->
+  <text x="200" y="290" font-size="14" fill="#1F4788" text-anchor="middle" font-weight="bold">Substation System</text>
+</svg>
+
+<!-- Commercial Building -->
+<svg id="commercial" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="buildingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F0F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D0E0F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#buildingGrad)"/>
+  <!-- Building structure -->
+  <rect x="80" y="60" width="240" height="180" fill="#F0F4FF" stroke="#1F4788" stroke-width="2"/>
+  <!-- Windows pattern -->
+  <g id="floor" opacity="0.8">
+    <rect x="95" y="75" width="20" height="20" fill="#87CEEB" stroke="#1F4788" stroke-width="1"/>
+    <rect x="125" y="75" width="20" height="20" fill="#87CEEB" stroke="#1F4788" stroke-width="1"/>
+    <rect x="155" y="75" width="20" height="20" fill="#FFD700" stroke="#1F4788" stroke-width="1"/>
+    <rect x="185" y="75" width="20" height="20" fill="#87CEEB" stroke="#1F4788" stroke-width="1"/>
+    <rect x="215" y="75" width="20" height="20" fill="#87CEEB" stroke="#1F4788" stroke-width="1"/>
+    <rect x="245" y="75" width="20" height="20" fill="#87CEEB" stroke="#1F4788" stroke-width="1"/>
+  </g>
+  <!-- Repeat windows -->
+  <use href="#floor" y="40"/>
+  <use href="#floor" y="80"/>
+  <use href="#floor" y="120"/>
+  <!-- Entrance -->
+  <rect x="170" y="210" width="60" height="30" fill="#8B7355" stroke="#1F4788" stroke-width="2"/>
+  <circle cx="200" cy="225" r="3" fill="#FFD700"/>
+  <!-- Roof -->
+  <polygon points="80,60 320,60 200,20" fill="#1F4788" opacity="0.8"/>
+  <!-- Title -->
+  <text x="200" y="290" font-size="14" fill="#1F4788" text-anchor="middle" font-weight="bold">Commercial Building</text>
+</svg>
+
+<!-- Industrial Plant -->
+<svg id="industrial" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="plantGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F0F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D0E0F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#plantGrad)"/>
+  <!-- Ground -->
+  <rect y="220" width="400" height="80" fill="#A0957E"/>
+  <!-- Main building -->
+  <rect x="60" y="120" width="120" height="100" fill="#7A8EA8" stroke="#1F4788" stroke-width="2"/>
+  <!-- Large tank/container -->
+  <circle cx="280" cy="140" r="50" fill="#FF8C00" stroke="#1F4788" stroke-width="2"/>
+  <!-- Pipes -->
+  <line x1="180" y1="140" x2="230" y2="140" stroke="#4472C4" stroke-width="3"/>
+  <line x1="280" y1="90" x2="280" y2="50" stroke="#4472C4" stroke-width="3"/>
+  <!-- Generator/equipment -->
+  <rect x="300" y="150" width="40" height="50" fill="#2E75B6" stroke="#1F4788" stroke-width="2"/>
+  <text x="320" y="182" font-size="10" fill="white" text-anchor="middle" font-weight="bold">GEN</text>
+  <!-- Cables -->
+  <path d="M 120 120 Q 200 80 300 150" stroke="#1F4788" stroke-width="2" fill="none"/>
+  <!-- Title -->
+  <text x="200" y="290" font-size="14" fill="#1F4788" text-anchor="middle" font-weight="bold">Industrial Plant</text>
+</svg>
+
+<!-- Power Distribution -->
+<svg id="distribution" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="distGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F0F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D0E0F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#distGrad)"/>
+  <!-- Main source -->
+  <circle cx="60" cy="100" r="25" fill="#FF8C00" stroke="#1F4788" stroke-width="2"/>
+  <text x="60" y="110" font-size="12" fill="white" text-anchor="middle" font-weight="bold">SOURCE</text>
+  <!-- Distribution branches -->
+  <line x1="85" y1="100" x2="150" y2="80" stroke="#2E75B6" stroke-width="2"/>
+  <line x1="85" y1="100" x2="150" y2="100" stroke="#2E75B6" stroke-width="2"/>
+  <line x1="85" y1="100" x2="150" y2="120" stroke="#2E75B6" stroke-width="2"/>
+  <!-- Load 1 -->
+  <circle cx="200" cy="80" r="20" fill="#90EE90" stroke="#1F4788" stroke-width="2"/>
+  <text x="200" y="85" font-size="10" fill="#1F4788" text-anchor="middle" font-weight="bold">L1</text>
+  <!-- Load 2 -->
+  <circle cx="200" cy="100" r="20" fill="#90EE90" stroke="#1F4788" stroke-width="2"/>
+  <text x="200" y="105" font-size="10" fill="#1F4788" text-anchor="middle" font-weight="bold">L2</text>
+  <!-- Load 3 -->
+  <circle cx="200" cy="120" r="20" fill="#90EE90" stroke="#1F4788" stroke-width="2"/>
+  <text x="200" y="125" font-size="10" fill="#1F4788" text-anchor="middle" font-weight="bold">L3</text>
+  <!-- Secondary distribution -->
+  <line x1="220" y1="80" x2="300" y2="60" stroke="#4472C4" stroke-width="1.5"/>
+  <line x1="220" y1="100" x2="300" y2="100" stroke="#4472C4" stroke-width="1.5"/>
+  <line x1="220" y1="120" x2="300" y2="140" stroke="#4472C4" stroke-width="1.5"/>
+  <!-- Monitoring -->
+  <rect x="300" y="50" width="40" height="100" fill="#2E75B6" stroke="#1F4788" stroke-width="2" rx="3"/>
+  <circle cx="320" cy="70" r="3" fill="#90EE90"/>
+  <circle cx="320" cy="85" r="3" fill="#FFD700"/>
+  <circle cx="320" cy="100" r="3" fill="#FF6B6B"/>
+  <!-- Title -->
+  <text x="200" y="290" font-size="14" fill="#1F4788" text-anchor="middle" font-weight="bold">Power Distribution Network</text>
+</svg>
+
+<!-- SCADA Control System -->
+<svg id="scada" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="scadaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F0F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D0E0F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#scadaGrad)"/>
+  <!-- Control room -->
+  <rect x="50" y="80" width="300" height="150" fill="#F0F4FF" stroke="#1F4788" stroke-width="2" rx="5"/>
+  <!-- Main monitor -->
+  <rect x="80" y="100" width="120" height="80" fill="#1A1A1A" stroke="#2E75B6" stroke-width="2"/>
+  <line x1="85" y1="115" x2="195" y2="115" stroke="#90EE90" stroke-width="1.5"/>
+  <line x1="85" y1="125" x2="195" y2="125" stroke="#4472C4" stroke-width="1.5"/>
+  <line x1="85" y1="135" x2="195" y2="135" stroke="#FFD700" stroke-width="1.5"/>
+  <line x1="85" y1="145" x2="195" y2="145" stroke="#90EE90" stroke-width="1.5"/>
+  <line x1="85" y1="155" x2="195" y2="155" stroke="#4472C4" stroke-width="1.5"/>
+  <!-- Control panel -->
+  <rect x="220" y="100" width="100" height="80" fill="#F5F7FA" stroke="#2E75B6" stroke-width="2" rx="3"/>
+  <circle cx="235" cy="120" r="5" fill="#FF6B6B"/>
+  <circle cx="260" cy="120" r="5" fill="#FFD700"/>
+  <circle cx="285" cy="120" r="5" fill="#90EE90"/>
+  <rect x="225" y="140" width="50" height="20" fill="#2E75B6" rx="2"/>
+  <text x="250" y="153" font-size="10" fill="white" text-anchor="middle" font-weight="bold">Start</text>
+  <rect x="285" y="140" width="25" height="20" fill="#FF6B6B" rx="2"/>
+  <text x="297" y="153" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Stop</text>
+  <!-- Indicators -->
+  <circle cx="245" cy="170" r="4" fill="#90EE90"/>
+  <text x="255" y="175" font-size="9" fill="#1F4788">Online</text>
+  <circle cx="245" cy="190" r="4" fill="#FFD700"/>
+  <text x="255" y="195" font-size="9" fill="#1F4788">Alert</text>
+  <!-- Title -->
+  <text x="200" y="290" font-size="14" fill="#1F4788" text-anchor="middle" font-weight="bold">SCADA Control System</text>
+</svg>
+
+<!-- Transmission Tower -->
+<svg id="tower" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="towerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F0F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D0E0F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#towerGrad)"/>
+  <!-- Ground -->
+  <rect y="230" width="400" height="70" fill="#8B9D5F"/>
+  <!-- Base structure -->
+  <rect x="180" y="180" width="40" height="50" fill="#7A8EA8" stroke="#1F4788" stroke-width="2"/>
+  <!-- Tower lattice -->
+  <line x1="180" y1="180" x2="100" y2="80" stroke="#4472C4" stroke-width="2"/>
+  <line x1="220" y1="180" x2="300" y2="80" stroke="#4472C4" stroke-width="2"/>
+  <line x1="180" y1="180" x2="120" y2="100" stroke="#4472C4" stroke-width="1.5"/>
+  <line x1="220" y1="180" x2="280" y2="100" stroke="#4472C4" stroke-width="1.5"/>
+  <!-- Cross members -->
+  <line x1="100" y1="80" x2="300" y2="80" stroke="#2E75B6" stroke-width="2"/>
+  <line x1="110" y1="110" x2="290" y2="110" stroke="#2E75B6" stroke-width="2"/>
+  <line x1="120" y1="140" x2="280" y2="140" stroke="#2E75B6" stroke-width="2"/>
+  <!-- Power lines -->
+  <path d="M 100 75 Q 200 40 300 75" stroke="#FF8C00" stroke-width="3" fill="none"/>
+  <path d="M 100 75 Q 200 60 300 75" stroke="#FF8C00" stroke-width="3" fill="none"/>
+  <path d="M 100 75 Q 200 20 300 75" stroke="#FF8C00" stroke-width="3" fill="none"/>
+  <!-- Title -->
+  <text x="200" y="290" font-size="14" fill="#1F4788" text-anchor="middle" font-weight="bold">Transmission Tower 138kV</text>
+</svg>

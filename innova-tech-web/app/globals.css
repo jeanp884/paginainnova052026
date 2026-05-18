@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #ffffff;
+}
+
+/* Estilos personalizados */
+.btn-primary {
+  @apply px-6 py-3 bg-innova-accent text-white font-bold rounded-lg hover:bg-orange-600 transition-colors;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 border-2 border-innova-accent text-innova-accent font-bold rounded-lg hover:bg-orange-50 transition-colors;
+}
+
+.section-title {
+  @apply text-4xl font-bold text-innova-primary mb-6;
+}
+
+.subsection-title {
+  @apply text-2xl font-bold text-innova-secondary mb-4;
+}
+
+.text-muted {
+  @apply text-innova-neutral;
+}
+
+/* Cards */
+.service-card {
+  @apply bg-white border-l-4 border-innova-accent p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow;
+}
+
+.case-card {
+  @apply bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow;
+}
+
+/* Hero section */
+.hero-gradient {
+  @apply bg-gradient-to-r from-innova-primary to-innova-secondary text-white;
+}
+
+/* Expandable sections */
+.expandable-header {
+  @apply cursor-pointer bg-innova-secondary text-white px-6 py-4 font-bold rounded-lg hover:bg-innova-primary transition-colors;
+}
+
+.expandable-content {
+  @apply bg-gray-50 px-6 py-4 rounded-b-lg border-l-4 border-innova-accent;
+}
