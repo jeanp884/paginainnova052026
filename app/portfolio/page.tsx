@@ -7,8 +7,8 @@ import CaseCard from '@/components/CaseCard'
 interface Case {
   id: string
   title: string
-  sector: 'comercial' | 'industrial' | 'utilities'
-  service: 'subestaciones' | 'instalaciones' | 'mantenimiento'
+  sector: 'residencial' | 'comercial' | 'industrial' | 'agricultura'
+  service: 'instalaciones' | 'mantenimiento'
   image: string
   description: string
   date: string
@@ -127,7 +127,7 @@ export default function Portfolio() {
                   >
                     Todos los Sectores
                   </button>
-                  {['comercial', 'industrial', 'utilities'].map((sector) => (
+                  {['residencial', 'comercial', 'industrial', 'agricultura'].map((sector) => (
                     <button
                       key={sector}
                       onClick={() => setSectorFilter(sector)}
@@ -137,9 +137,10 @@ export default function Portfolio() {
                           : 'bg-gray-100 text-innova-neutral hover:bg-gray-200'
                       }`}
                     >
+                      {sector === 'residencial' && '[HOME] Residencial'}
                       {sector === 'comercial' && '[BUILDING] Comercial'}
                       {sector === 'industrial' && '[FACTORY] Industrial'}
-                      {sector === 'utilities' && '[GEAR] Utilities'}
+                      {sector === 'agricultura' && '[FARM] Agricultura'}
                     </button>
                   ))}
                 </div>
@@ -159,7 +160,7 @@ export default function Portfolio() {
                   >
                     Todos los Servicios
                   </button>
-                  {['subestaciones', 'instalaciones', 'mantenimiento'].map((service) => (
+                  {['instalaciones', 'mantenimiento'].map((service) => (
                     <button
                       key={service}
                       onClick={() => setServiceFilter(service)}
@@ -169,7 +170,6 @@ export default function Portfolio() {
                           : 'bg-gray-100 text-innova-neutral hover:bg-gray-200'
                       }`}
                     >
-                      {service === 'subestaciones' && '[POWER] Subestaciones'}
                       {service === 'instalaciones' && '[PLUG] Instalaciones'}
                       {service === 'mantenimiento' && '[TOOL] Mantenimiento'}
                     </button>
@@ -190,14 +190,8 @@ export default function Portfolio() {
                   key={c.id}
                   id={c.id}
                   title={c.title}
-                  sector={c.sector === 'comercial' ? 'Comercial' : c.sector === 'industrial' ? 'Industrial' : 'Utilities'}
-                  service={
-                    c.service === 'subestaciones'
-                      ? 'Subestaciones'
-                      : c.service === 'instalaciones'
-                        ? 'Instalaciones'
-                        : 'Mantenimiento'
-                  }
+                  sector={c.sector === 'residencial' ? 'Residencial' : c.sector === 'comercial' ? 'Comercial' : c.sector === 'industrial' ? 'Industrial' : 'Agricultura'}
+                  service={c.service === 'instalaciones' ? 'Instalaciones' : 'Mantenimiento'}
                   image={c.image}
                   description={c.description}
                 />
