@@ -32,18 +32,18 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Servicios</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/servicios#subestaciones" className="text-gray-300 hover:text-white transition">
-                  Subestaciones Electricas
+                <Link href="/#servicios" className="text-gray-300 hover:text-white transition">
+                  Diseño e Instalación
                 </Link>
               </li>
               <li>
-                <Link href="/servicios#instalaciones" className="text-gray-300 hover:text-white transition">
-                  Instalaciones de Fuerza
+                <Link href="/#servicios" className="text-gray-300 hover:text-white transition">
+                  Almacenamiento en Baterías
                 </Link>
               </li>
               <li>
-                <Link href="/servicios#mantenimiento" className="text-gray-300 hover:text-white transition">
-                  Mantenimiento Especializado
+                <Link href="/#servicios" className="text-gray-300 hover:text-white transition">
+                  Mantenimiento y Soporte
                 </Link>
               </li>
             </ul>
@@ -53,6 +53,11 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">Sectores</h3>
             <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/residencial" className="text-gray-300 hover:text-white transition">
+                  Residencial
+                </Link>
+              </li>
               <li>
                 <Link href="/comercial" className="text-gray-300 hover:text-white transition">
                   Comercial
@@ -64,8 +69,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/utilities" className="text-gray-300 hover:text-white transition">
-                  Utilities
+                <Link href="/agricultura" className="text-gray-300 hover:text-white transition">
+                  Agricultura
                 </Link>
               </li>
             </ul>

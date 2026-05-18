@@ -4,12 +4,12 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Innova Tech - Soluciones en Ingeniería Eléctrica',
-  description: 'Especialistas en subestaciones, instalaciones de fuerza y mantenimiento especializado para sectores comercial, industrial y utilities.',
+  title: 'Innova Tech - Soluciones en Energia Solar Fotovoltaica',
+  description: 'Especialistas en diseño, instalación y mantenimiento de sistemas fotovoltaicos para residencial, comercial, industrial y agricultura.',
   openGraph: {
-    title: 'Innova Tech - Soluciones en Ingeniería Eléctrica',
-    description: 'Soluciones integrales en ingeniería eléctrica para comercial, industrial y utilities',
-    url: 'https://innova-tech.com',
+    title: 'Innova Tech - Soluciones en Energia Solar Fotovoltaica',
+    description: 'Soluciones integrales en energía solar para residencial, comercial, industrial y agricultura',
+    url: 'https://paginainnova052026.vercel.app',
     siteName: 'Innova Tech',
     locale: 'es_ES',
     type: 'website',

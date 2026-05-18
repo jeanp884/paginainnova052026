@@ -24,20 +24,20 @@ export default function Header() {
           <Link href="/servicios" className="text-innova-neutral hover:text-innova-primary transition">
             Servicios
           </Link>
+          <Link href="/residencial" className="text-innova-neutral hover:text-innova-primary transition">
+            Residencial
+          </Link>
           <Link href="/comercial" className="text-innova-neutral hover:text-innova-primary transition">
             Comercial
           </Link>
           <Link href="/industrial" className="text-innova-neutral hover:text-innova-primary transition">
             Industrial
           </Link>
-          <Link href="/utilities" className="text-innova-neutral hover:text-innova-primary transition">
-            Utilities
+          <Link href="/agricultura" className="text-innova-neutral hover:text-innova-primary transition">
+            Agricultura
           </Link>
           <Link href="/portfolio" className="text-innova-neutral hover:text-innova-primary transition">
             Portfolio
-          </Link>
-          <Link href="/empresa" className="text-innova-neutral hover:text-innova-primary transition">
-            Empresa
           </Link>
           <Link href="/contacto" className="btn-primary">
             Contacto
@@ -62,20 +62,20 @@ export default function Header() {
             <Link href="/servicios" className="block text-innova-neutral hover:text-innova-primary">
               Servicios
             </Link>
+            <Link href="/residencial" className="block text-innova-neutral hover:text-innova-primary">
+              Residencial
+            </Link>
             <Link href="/comercial" className="block text-innova-neutral hover:text-innova-primary">
               Comercial
             </Link>
             <Link href="/industrial" className="block text-innova-neutral hover:text-innova-primary">
               Industrial
             </Link>
-            <Link href="/utilities" className="block text-innova-neutral hover:text-innova-primary">
-              Utilities
+            <Link href="/agricultura" className="block text-innova-neutral hover:text-innova-primary">
+              Agricultura
             </Link>
             <Link href="/portfolio" className="block text-innova-neutral hover:text-innova-primary">
               Portfolio
-            </Link>
-            <Link href="/empresa" className="block text-innova-neutral hover:text-innova-primary">
-              Empresa
             </Link>
             <Link href="/contacto" className="block btn-primary text-center">
               Contacto
