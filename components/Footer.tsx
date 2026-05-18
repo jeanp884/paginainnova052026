@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">Innova Tech</h3>
             <p className="text-gray-300 text-sm mb-4">
-              Soluciones integrales en ingeniería eléctrica para comercial, industrial y utilities.
+              Soluciones integrales en ingenieria electrica para comercial, industrial y utilities.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition">
@@ -33,7 +33,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/servicios#subestaciones" className="text-gray-300 hover:text-white transition">
-                  Subestaciones Eléctricas
+                  Subestaciones Electricas
                 </Link>
               </li>
               <li>
@@ -98,10 +98,10 @@ export default function Footer() {
             </p>
             <div className="flex space-x-6 text-sm">
               <Link href="#" className="text-gray-300 hover:text-white transition">
-                Política de Privacidad
+                Politica de Privacidad
               </Link>
               <Link href="#" className="text-gray-300 hover:text-white transition">
-                Términos de Servicio
+                Terminos de Servicio
               </Link>
             </div>
           </div>
