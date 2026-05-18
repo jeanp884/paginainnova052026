@@ -1,6 +1,7 @@
 import HeroSection from '@/components/HeroSection'
 import CaseCard from '@/components/CaseCard'
 import Link from 'next/link'
+// Fixed encoding
 
 export default function Comercial() {
   return (
