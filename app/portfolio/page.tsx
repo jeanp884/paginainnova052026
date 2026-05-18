@@ -17,11 +17,11 @@ interface Case {
 const cases: Case[] = [
   {
     id: 'caso-1',
-    title: 'Subestación 30 MVA',
+    title: 'Subestacion 30 MVA',
     sector: 'industrial',
     service: 'subestaciones',
     image: '/cases/industrial-subestacion.jpg',
-    description: 'Comisionamiento de subestación de transformadores de potencia en planta manufacturera',
+    description: 'Comisionamiento de subestacion de transformadores de potencia en planta manufacturera',
     date: '2024-01',
   },
   {
@@ -48,7 +48,7 @@ const cases: Case[] = [
     sector: 'industrial',
     service: 'instalaciones',
     image: '/cases/industrial-planta.jpg',
-    description: 'Sistema de fuerza para planta con 200+ máquinas de producción',
+    description: 'Sistema de fuerza para planta con 200+ maquinas de produccion',
     date: '2023-07',
   },
   {
@@ -71,11 +71,11 @@ const cases: Case[] = [
   },
   {
     id: 'caso-7',
-    title: 'Refinería Compleja',
+    title: 'Refineria Compleja',
     sector: 'industrial',
     service: 'subestaciones',
     image: '/cases/industrial-refineria.jpg',
-    description: 'Sistema con redundancia dual para operación crítica',
+    description: 'Sistema con redundancia dual para operacion critica',
     date: '2023-01',
   },
   {
@@ -137,9 +137,9 @@ export default function Portfolio() {
                           : 'bg-gray-100 text-innova-neutral hover:bg-gray-200'
                       }`}
                     >
-                      {sector === 'comercial' && '🏢 Comercial'}
-                      {sector === 'industrial' && '🏭 Industrial'}
-                      {sector === 'utilities' && '⚙️ Utilities'}
+                      {sector === 'comercial' && '[BUILDING] Comercial'}
+                      {sector === 'industrial' && '[FACTORY] Industrial'}
+                      {sector === 'utilities' && '[GEAR] Utilities'}
                     </button>
                   ))}
                 </div>
@@ -169,9 +169,9 @@ export default function Portfolio() {
                           : 'bg-gray-100 text-innova-neutral hover:bg-gray-200'
                       }`}
                     >
-                      {service === 'subestaciones' && '⚡ Subestaciones'}
-                      {service === 'instalaciones' && '🔌 Instalaciones'}
-                      {service === 'mantenimiento' && '🔧 Mantenimiento'}
+                      {service === 'subestaciones' && '[POWER] Subestaciones'}
+                      {service === 'instalaciones' && '[PLUG] Instalaciones'}
+                      {service === 'mantenimiento' && '[TOOL] Mantenimiento'}
                     </button>
                   ))}
                 </div>
@@ -219,10 +219,10 @@ export default function Portfolio() {
       <section className="py-16 bg-innova-secondary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">
-            ¿Buscas inspiración para tu proyecto?
+            Buscas inspiracion para tu proyecto?
           </h2>
           <p className="text-blue-100 mb-8">
-            Contáctanos para una consulta personalizada sobre tus necesidades específicas
+            Contactanos para una consulta personalizada sobre tus necesidades especificas
           </p>
           <a href="/contacto" className="btn-primary">
             Solicitar Consulta
