@@ -26,7 +26,7 @@ export default function Contacto() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Aquí iría la lógica de envío del formulario
+    // Aqui iria la logica de envio del formulario
     console.log('Formulario enviado:', formData)
     setSubmitted(true)
     setTimeout(() => {
@@ -46,20 +46,20 @@ export default function Contacto() {
   return (
     <>
       <HeroSection
-        title="Contáctanos"
+        title="Contactanos"
         subtitle="Estamos listos para hablar sobre tu proyecto"
-        description="Ponte en contacto con nuestro equipo técnico para una consulta personalizada"
+        description="Ponte en contacto con nuestro equipo tecnico para una consulta personalizada"
       />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            {/* Información de Contacto */}
+            {/* Informacion de Contacto */}
             <div>
-              <h2 className="subsection-title mb-8">Información de Contacto</h2>
+              <h2 className="subsection-title mb-8">Informacion de Contacto</h2>
 
               <div className="mb-8">
-                <h3 className="font-bold text-innova-primary mb-2">Teléfono</h3>
+                <h3 className="font-bold text-innova-primary mb-2">Telefono</h3>
                 <a
                   href="tel:+584245555555"
                   className="text-innova-accent font-bold hover:text-innova-primary transition"
@@ -91,7 +91,7 @@ export default function Contacto() {
 
               {/* Redes Sociales */}
               <div>
-                <h3 className="font-bold text-innova-primary mb-4">Síguenos</h3>
+                <h3 className="font-bold text-innova-primary mb-4">Siguenos</h3>
                 <div className="flex space-x-4">
                   <a href="#" className="w-10 h-10 bg-innova-primary rounded-full flex items-center justify-center text-white hover:bg-innova-secondary transition">
                     <span className="text-lg">f</span>
@@ -108,11 +108,11 @@ export default function Contacto() {
 
             {/* Formulario */}
             <div className="lg:col-span-2">
-              <h2 className="subsection-title mb-6">Envíanos tu Consulta</h2>
+              <h2 className="subsection-title mb-6">Envianos tu Consulta</h2>
 
               {submitted && (
                 <div className="mb-6 p-4 bg-green-100 text-green-700 rounded-lg border border-green-300">
-                  ✓ ¡Gracias por contactarnos! Nos comunicaremos pronto.
+                  OK Gracias por contactarnos! Nos comunicaremos pronto.
                 </div>
               )}
 
@@ -151,10 +151,10 @@ export default function Contacto() {
                   />
                 </div>
 
-                {/* Teléfono */}
+                {/* Telefono */}
                 <div>
                   <label htmlFor="telefono" className="block text-innova-primary font-bold mb-2">
-                    Teléfono
+                    Telefono
                   </label>
                   <input
                     type="tel"
@@ -206,7 +206,7 @@ export default function Contacto() {
                 {/* Servicio */}
                 <div>
                   <label htmlFor="servicio" className="block text-innova-primary font-bold mb-2">
-                    Servicio de Interés
+                    Servicio de Interes
                   </label>
                   <select
                     id="servicio"
@@ -216,7 +216,7 @@ export default function Contacto() {
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-innova-accent"
                   >
                     <option value="">Selecciona un servicio</option>
-                    <option value="subestaciones">Subestaciones Eléctricas</option>
+                    <option value="subestaciones">Subestaciones Electricas</option>
                     <option value="instalaciones">Instalaciones de Fuerza</option>
                     <option value="mantenimiento">Mantenimiento Especializado</option>
                     <option value="consulta">Consulta General</option>
@@ -236,11 +236,11 @@ export default function Contacto() {
                     required
                     rows={6}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-innova-accent"
-                    placeholder="Cuéntanos sobre tu proyecto..."
+                    placeholder="Cuentanos sobre tu proyecto..."
                   />
                 </div>
 
-                {/* Botón Submit */}
+                {/* Boton Submit */}
                 <button type="submit" className="btn-primary w-full">
                   Enviar Consulta
                 </button>
@@ -257,9 +257,9 @@ export default function Contacto() {
       {/* Mapa */}
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
-          <h2 className="section-title text-center mb-8">Ubicación</h2>
+          <h2 className="section-title text-center mb-8">Ubicacion</h2>
           <div className="w-full h-96 bg-gray-300 rounded-lg flex items-center justify-center">
-            <p className="text-gray-600">[Mapa de Google Maps aquí]</p>
+            <p className="text-gray-600">[Mapa de Google Maps aqui]</p>
           </div>
         </div>
       </section>

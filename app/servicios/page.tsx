@@ -7,9 +7,9 @@ export default function Servicios() {
     <>
       <HeroSection
         title="Nuestros Servicios"
-        description="Soluciones técnicas especializadas en ingeniería eléctrica"
+        description="Soluciones tecnicas especializadas en ingenieria electrica"
         primaryCTA={{
-          text: 'Solicitar Asesoría',
+          text: 'Solicitar Asesoria',
           href: '/contacto',
         }}
       />
@@ -20,14 +20,14 @@ export default function Servicios() {
             {/* Servicio 1: Subestaciones */}
             <ExpandableSection
               id="subestaciones"
-              title="Subestaciones Eléctricas"
+              title="Subestaciones Electricas"
               defaultOpen={true}
             >
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-bold text-innova-secondary mb-2">¿Qué es?</h4>
+                  <h4 className="font-bold text-innova-secondary mb-2">Que es?</h4>
                   <p className="text-innova-neutral">
-                    Instalaciones especializadas que transforman y distribuyen energía eléctrica usando equipos de alta tensión y sistemas de protección avanzados.
+                    Instalaciones especializadas que transforman y distribuyen energia electrica usando equipos de alta tension y sistemas de proteccion avanzados.
                   </p>
                 </div>
 
@@ -36,7 +36,7 @@ export default function Servicios() {
                   <ul className="list-disc list-inside space-y-1 text-innova-neutral">
                     <li>Comisionamiento de transformadores de potencia</li>
                     <li>Transformadores de potencial (TP) y corriente (TC)</li>
-                    <li>Sistemas de protecciones eléctricas</li>
+                    <li>Sistemas de protecciones electricas</li>
                     <li>Puesta en marcha de equipos primarios</li>
                   </ul>
                 </div>
@@ -45,7 +45,7 @@ export default function Servicios() {
                   <h4 className="font-bold text-innova-secondary mb-2">Equipos Primarios</h4>
                   <ul className="list-disc list-inside space-y-1 text-innova-neutral">
                     <li>Transformadores de potencia (2-300 MVA)</li>
-                    <li>Disyuntores de alta tensión</li>
+                    <li>Disyuntores de alta tension</li>
                     <li>Seccionadores e interruptores</li>
                     <li>Transformadores de medida</li>
                     <li>Sistemas de puesta a tierra</li>
@@ -53,21 +53,21 @@ export default function Servicios() {
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-innova-secondary mb-2">Metodología</h4>
+                  <h4 className="font-bold text-innova-secondary mb-2">Metodologia</h4>
                   <div className="bg-gray-50 p-4 rounded-lg text-innova-neutral">
-                    Inspección → Pruebas Pre-Comisionamiento → Puesta en Marcha → Documentación Final
+                    Inspeccion - Pruebas Pre-Comisionamiento - Puesta en Marcha - Documentacion Final
                   </div>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-innova-secondary mb-2">Estándares</h4>
+                  <h4 className="font-bold text-innova-secondary mb-2">Estandares</h4>
                   <p className="text-innova-neutral">
-                    IEC 61076, ANSI C57, normativas nacionales aplicables, protecciones según IEEE C37
+                    IEC 61076, ANSI C57, normativas nacionales aplicables, protecciones segun IEEE C37
                   </p>
                 </div>
 
                 <Link href="/contacto?servicio=subestaciones" className="btn-primary inline-block mt-4">
-                  Solicitar Asesoría Técnica
+                  Solicitar Asesoria Tecnica
                 </Link>
               </div>
             </ExpandableSection>
@@ -79,9 +79,9 @@ export default function Servicios() {
             >
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-bold text-innova-secondary mb-2">¿Qué es?</h4>
+                  <h4 className="font-bold text-innova-secondary mb-2">Que es?</h4>
                   <p className="text-innova-neutral">
-                    Sistema completo de distribución de energía eléctrica dentro de instalaciones, desde media tensión hasta los puntos finales de consumo.
+                    Sistema completo de distribucion de energia electrica dentro de instalaciones, desde media tension hasta los puntos finales de consumo.
                   </p>
                 </div>
 
@@ -89,9 +89,9 @@ export default function Servicios() {
                   <h4 className="font-bold text-innova-secondary mb-2">Alcance</h4>
                   <ul className="list-disc list-inside space-y-1 text-innova-neutral">
                     <li>Transformadores en salas de fuerza</li>
-                    <li>Switchgear de media tensión (6-35 kV)</li>
-                    <li>Tableros en baja tensión (BT)</li>
-                    <li>Diseño de circuitos de distribución</li>
+                    <li>Switchgear de media tension (6-35 kV)</li>
+                    <li>Tableros en baja tension (BT)</li>
+                    <li>Diseno de circuitos de distribucion</li>
                     <li>Cableado de potencia y control</li>
                   </ul>
                 </div>
@@ -105,7 +105,7 @@ export default function Servicios() {
                     </div>
                     <div className="bg-gray-50 p-3 rounded">
                       <p className="font-bold text-innova-primary mb-1">Industrial</p>
-                      <p className="text-innova-neutral">Plantas, refinerías, manufactura</p>
+                      <p className="text-innova-neutral">Plantas, refinerias, manufactura</p>
                     </div>
                     <div className="bg-gray-50 p-3 rounded">
                       <p className="font-bold text-innova-primary mb-1">Utilities</p>
@@ -117,7 +117,7 @@ export default function Servicios() {
                 <div>
                   <h4 className="font-bold text-innova-secondary mb-2">Proceso</h4>
                   <div className="bg-gray-50 p-4 rounded-lg text-innova-neutral">
-                    Diagnóstico → Diseño de Sistema → Implementación → Pruebas → Puesta en Operación
+                    Diagnostico - Diseno de Sistema - Implementacion - Pruebas - Puesta en Operacion
                   </div>
                 </div>
 
@@ -134,18 +134,18 @@ export default function Servicios() {
             >
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-bold text-innova-secondary mb-2">¿Qué es?</h4>
+                  <h4 className="font-bold text-innova-secondary mb-2">Que es?</h4>
                   <p className="text-innova-neutral">
-                    Programas integrales de mantenimiento preventivo y correctivo para garantizar disponibilidad y eficiencia de equipos eléctricos.
+                    Programas integrales de mantenimiento preventivo y correctivo para garantizar disponibilidad y eficiencia de equipos electricos.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-innova-secondary mb-2">Alcance</h4>
                   <ul className="list-disc list-inside space-y-1 text-innova-neutral">
-                    <li>Inspecciones visuales y termográficas</li>
+                    <li>Inspecciones visuales y termograficas</li>
                     <li>Pruebas funcionales de equipos</li>
-                    <li>Calibración de dispositivos de protección</li>
+                    <li>Calibracion de dispositivos de proteccion</li>
                     <li>Actualizaciones de firmware y software</li>
                     <li>Reparaciones especializadas</li>
                   </ul>
@@ -154,17 +154,17 @@ export default function Servicios() {
                 <div>
                   <h4 className="font-bold text-innova-secondary mb-2">Reportes</h4>
                   <p className="text-innova-neutral">
-                    Documentación técnica detallada de cada intervención, incluyendo hallazgos, recomendaciones y planes de acción.
+                    Documentacion tecnica detallada de cada intervencion, incluyendo hallazgos, recomendaciones y planes de accion.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-innova-secondary mb-2">Beneficios</h4>
                   <ul className="list-disc list-inside space-y-1 text-innova-neutral">
-                    <li>Reducción de tiempo de parada no planificado</li>
-                    <li>Aumento de vida útil de equipos</li>
+                    <li>Reduccion de tiempo de parada no planificado</li>
+                    <li>Aumento de vida util de equipos</li>
                     <li>Cumplimiento de normativas</li>
-                    <li>Documentación completa para auditorías</li>
+                    <li>Documentacion completa para auditorias</li>
                   </ul>
                 </div>
 
@@ -181,10 +181,10 @@ export default function Servicios() {
       <section className="py-16 bg-innova-secondary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">
-            ¿Necesitas una solución específica?
+            Necesitas una solucion especifica?
           </h2>
           <p className="text-blue-100 mb-8">
-            Contáctanos para una evaluación técnica personalizada
+            Contactanos para una evaluacion tecnica personalizada
           </p>
           <Link href="/contacto" className="btn-primary">
             Solicitar Consulta
