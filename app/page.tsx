@@ -8,9 +8,9 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <HeroSection
-        title="Soluciones Integrales en Ingenieria Electrica"
-        subtitle="Comercial - Industrial - Utilities"
-        description="Especialistas en subestaciones, transformadores y comisionamiento de equipos primarios"
+        title="Soluciones en Energia Solar Fotovoltaica"
+        subtitle="Residencial - Comercial - Industrial - Agricultura"
+        description="Especialistas en diseno, instalacion y mantenimiento de sistemas fotovoltaicos de alta eficiencia"
         primaryCTA={{
           text: 'Explorar Servicios',
           href: '/servicios',
@@ -27,36 +27,36 @@ export default function Home() {
           <h2 className="section-title text-center mb-12">Nuestros Servicios</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <ServiceCard
-              icon="[POWER]"
-              title="Subestaciones Electricas"
-              description="Comisionamiento especializado de equipos primarios y sistemas de proteccion"
+              icon="[SUN]"
+              title="Diseno e Instalacion Solar"
+              description="Sistemas fotovoltaicos completos adaptados a tus necesidades energeticas"
               details={[
-                'Transformadores de potencia',
-                'Equipos de proteccion electrica',
-                'Comisionamiento IEC/ANSI',
-                'Documentacion tecnica completa',
+                'Diseno personalizado de sistemas',
+                'Paneles solares de alta eficiencia',
+                'Instalacion profesional',
+                'Comisionamiento y pruebas',
               ]}
             />
             <ServiceCard
-              icon="[PLUG]"
-              title="Instalaciones de Fuerza"
-              description="Sistemas completos de distribucion de energia electrica"
+              icon="[BATTERY]"
+              title="Almacenamiento en Baterias"
+              description="Sistemas de almacenamiento para independencia energetica total"
               details={[
-                'Transformadores en salas',
-                'Switchgear de media tension',
-                'Tableros en baja tension',
-                'Diseno de circuitos',
+                'Baterias de litio o plomo-acido',
+                'Sistemas de respaldo 24/7',
+                'Integracion con paneles solares',
+                'Monitoreo remoto inteligente',
               ]}
             />
             <ServiceCard
               icon="[TOOL]"
-              title="Mantenimiento Especializado"
-              description="Programas de mantenimiento preventivo y correctivo"
+              title="Mantenimiento y Soporte"
+              description="Mantenimiento preventivo para maxima rentabilidad"
               details={[
                 'Inspecciones periodicas',
-                'Pruebas de equipos',
-                'Calibracion de dispositivos',
-                'Reparaciones especializadas',
+                'Limpieza de paneles',
+                'Actualizaciones de software',
+                'Soporte tecnico 24/7',
               ]}
             />
           </div>
@@ -67,15 +67,29 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="section-title text-center mb-12">Sectores de Enfoque</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <Link href="/residencial">
+              <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-innova-accent transition cursor-pointer">
+                <div className="text-5xl mb-4">[HOME]</div>
+                <h3 className="text-2xl font-bold text-innova-primary mb-2">
+                  Residencial
+                </h3>
+                <p className="text-innova-neutral mb-4">
+                  Energia solar para viviendas y reduccion de factura electrica
+                </p>
+                <span className="text-innova-accent font-bold">
+                  Explorar &gt;
+                </span>
+              </div>
+            </Link>
             <Link href="/comercial">
               <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-innova-accent transition cursor-pointer">
                 <div className="text-5xl mb-4">[BUILDING]</div>
                 <h3 className="text-2xl font-bold text-innova-primary mb-2">
-                  Sector Comercial
+                  Comercial
                 </h3>
                 <p className="text-innova-neutral mb-4">
-                  Soluciones para edificios, centros comerciales y espacios corporativos
+                  Sistemas solares para oficinas, comercios y centros comerciales
                 </p>
                 <span className="text-innova-accent font-bold">
                   Explorar &gt;
@@ -86,24 +100,24 @@ export default function Home() {
               <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-innova-accent transition cursor-pointer">
                 <div className="text-5xl mb-4">[FACTORY]</div>
                 <h3 className="text-2xl font-bold text-innova-primary mb-2">
-                  Sector Industrial
+                  Industrial
                 </h3>
                 <p className="text-innova-neutral mb-4">
-                  Especializacion en plantas, refinerias y operaciones manufactureras
+                  Plantas solares de gran escala para operaciones manufactureras
                 </p>
                 <span className="text-innova-accent font-bold">
                   Explorar &gt;
                 </span>
               </div>
             </Link>
-            <Link href="/utilities">
+            <Link href="/agricultura">
               <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-innova-accent transition cursor-pointer">
-                <div className="text-5xl mb-4">[GEAR]</div>
+                <div className="text-5xl mb-4">[FARM]</div>
                 <h3 className="text-2xl font-bold text-innova-primary mb-2">
-                  Sector Utilities
+                  Agricultura
                 </h3>
                 <p className="text-innova-neutral mb-4">
-                  Soluciones para operadores de redes, distribuidoras y generadores
+                  Sistemas solares para granjas, invernaderos y operaciones agricolas
                 </p>
                 <span className="text-innova-accent font-bold">
                   Explorar &gt;

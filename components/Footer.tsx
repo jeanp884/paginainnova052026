@@ -7,9 +7,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Empresa */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Innova Tech</h3>
+            <h3 className="font-bold text-lg mb-4">Innova Solar</h3>
             <p className="text-gray-300 text-sm mb-4">
-              Soluciones integrales en ingenieria electrica para comercial, industrial y utilities.
+              Soluciones integrales en energia solar fotovoltaica para residencial, comercial, industrial y agricultura.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition">
