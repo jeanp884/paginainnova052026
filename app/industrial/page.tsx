@@ -93,7 +93,7 @@ export default function Industrial() {
                 title="Fabrica Industrial 200 kW"
                 sector="Industrial"
                 service="Instalaciones"
-                image="/cases/industrial-planta.jpg"
+                image="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&q=80"
                 description="Planta solar de 200 kW para fabricante con ahorro anual de 400 millones"
               />
               <CaseCard
@@ -101,7 +101,7 @@ export default function Industrial() {
                 title="Planta Industrial 300 kW"
                 sector="Industrial"
                 service="Instalaciones"
-                image="/cases/industrial-fabrica.jpg"
+                image="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&q=80"
                 description="Sistema solar hibrido con generador de respaldo para operacion 24/7 sin interrupciones"
               />
             </div>

@@ -27,7 +27,7 @@ export default function Home() {
           <h2 className="section-title text-center mb-12">Nuestros Servicios</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <ServiceCard
-              icon="[SUN]"
+              icon="https://images.unsplash.com/photo-1509391366360-2e938148aae6?w=500&q=80"
               title="Diseno e Instalacion Solar"
               description="Sistemas fotovoltaicos completos adaptados a tus necesidades energeticas"
               details={[
@@ -38,7 +38,7 @@ export default function Home() {
               ]}
             />
             <ServiceCard
-              icon="[BATTERY]"
+              icon="https://images.unsplash.com/photo-1559163615-cd4628902249?w=500&q=80"
               title="Almacenamiento en Baterias"
               description="Sistemas de almacenamiento para independencia energetica total"
               details={[
@@ -49,7 +49,7 @@ export default function Home() {
               ]}
             />
             <ServiceCard
-              icon="[TOOL]"
+              icon="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&q=80"
               title="Mantenimiento y Soporte"
               description="Mantenimiento preventivo para maxima rentabilidad"
               details={[
@@ -69,8 +69,10 @@ export default function Home() {
           <h2 className="section-title text-center mb-12">Sectores de Enfoque</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Link href="/residencial">
-              <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-innova-accent transition cursor-pointer">
-                <div className="text-5xl mb-4">[HOME]</div>
+              <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-innova-accent transition cursor-pointer overflow-hidden group">
+                <div className="h-40 mb-4 rounded overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1570129477492-45f003313e78?w=500&q=80" alt="Casa residencial con energia solar" className="w-full h-full object-cover group-hover:scale-110 transition duration-300" />
+                </div>
                 <h3 className="text-2xl font-bold text-innova-primary mb-2">
                   Residencial
                 </h3>
@@ -83,8 +85,10 @@ export default function Home() {
               </div>
             </Link>
             <Link href="/comercial">
-              <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-innova-accent transition cursor-pointer">
-                <div className="text-5xl mb-4">[BUILDING]</div>
+              <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-innova-accent transition cursor-pointer overflow-hidden group">
+                <div className="h-40 mb-4 rounded overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500&q=80" alt="Centro comercial con energia solar" className="w-full h-full object-cover group-hover:scale-110 transition duration-300" />
+                </div>
                 <h3 className="text-2xl font-bold text-innova-primary mb-2">
                   Comercial
                 </h3>
@@ -97,8 +101,10 @@ export default function Home() {
               </div>
             </Link>
             <Link href="/industrial">
-              <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-innova-accent transition cursor-pointer">
-                <div className="text-5xl mb-4">[FACTORY]</div>
+              <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-innova-accent transition cursor-pointer overflow-hidden group">
+                <div className="h-40 mb-4 rounded overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&q=80" alt="Planta industrial con energia solar" className="w-full h-full object-cover group-hover:scale-110 transition duration-300" />
+                </div>
                 <h3 className="text-2xl font-bold text-innova-primary mb-2">
                   Industrial
                 </h3>
@@ -111,8 +117,10 @@ export default function Home() {
               </div>
             </Link>
             <Link href="/agricultura">
-              <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-innova-accent transition cursor-pointer">
-                <div className="text-5xl mb-4">[FARM]</div>
+              <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-innova-accent transition cursor-pointer overflow-hidden group">
+                <div className="h-40 mb-4 rounded overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&q=80" alt="Granja agricola con energia solar" className="w-full h-full object-cover group-hover:scale-110 transition duration-300" />
+                </div>
                 <h3 className="text-2xl font-bold text-innova-primary mb-2">
                   Agricultura
                 </h3>

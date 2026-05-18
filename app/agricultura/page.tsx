@@ -93,7 +93,7 @@ export default function Agricultura() {
                 title="Fabrica Industrial 200 kW"
                 sector="Industrial"
                 service="Instalaciones"
-                image="/cases/agricultura-granja.jpg"
+                image="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&q=80"
                 description="Granja con sistema solar para bombeo de agua y riego automatico sin red electrica"
               />
               <CaseCard
@@ -101,7 +101,7 @@ export default function Agricultura() {
                 title="Granja Agricola 75 kW"
                 sector="Agricultura"
                 service="Instalaciones"
-                image="/cases/agricultura-granja.jpg"
+                image="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&q=80"
                 description="Sistema solar para riego de 500 hectareas con almacenamiento en tanques elevados"
               />
               <CaseCard
@@ -109,7 +109,7 @@ export default function Agricultura() {
                 title="Invernadero Agricola 30 kW"
                 sector="Agricultura"
                 service="Instalaciones"
-                image="/cases/agricultura-invernadero.jpg"
+                image="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&q=80"
                 description="Sistema de riego y control climatico 100% solar para invernadero de hortalizas"
               />
             </div>

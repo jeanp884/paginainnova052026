@@ -93,7 +93,7 @@ export default function Residencial() {
                 title="Casa Residencial 10 kW"
                 sector="Residencial"
                 service="Instalaciones"
-                image="/cases/residencial-casa.jpg"
+                image="https://images.unsplash.com/photo-1570129477492-45f003313e78?w=600&q=80"
                 description="Sistema solar residencial de 10 kW con almacenamiento en baterias"
               />
               <CaseCard
@@ -101,7 +101,7 @@ export default function Residencial() {
                 title="Vivienda con Almacenamiento"
                 sector="Residencial"
                 service="Instalaciones"
-                image="/cases/residencial-almacenamiento.jpg"
+                image="https://images.unsplash.com/photo-1509391366360-2e938148aae6?w=600&q=80"
                 description="Casa residencial con 8 kW de paneles y baterias de litio de 20 kWh"
               />
               <CaseCard
@@ -109,7 +109,7 @@ export default function Residencial() {
                 title="Edificio Corporativo"
                 sector="Comercial"
                 service="Instalaciones"
-                image="/cases/comercial-edificio.jpg"
+                image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80"
                 description="Sistema solar integrado en techo de condominio residencial con energia compartida"
               />
             </div>

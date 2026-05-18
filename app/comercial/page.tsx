@@ -93,7 +93,7 @@ export default function Comercial() {
                 title="Centro Comercial 50 kW"
                 sector="Comercial"
                 service="Instalaciones"
-                image="/cases/comercial-centro.jpg"
+                image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80"
                 description="Sistema solar de 50 kW para centro comercial con 120+ locales, reduccion del 60% en factura"
               />
               <CaseCard
@@ -101,7 +101,7 @@ export default function Comercial() {
                 title="Edificio Corporativo 120 kW"
                 sector="Comercial"
                 service="Instalaciones"
-                image="/cases/comercial-edificio.jpg"
+                image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80"
                 description="Sistema solar integrado en techo de edificio de 15 pisos con baterias de respaldo"
               />
             </div>
