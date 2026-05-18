@@ -55,7 +55,7 @@ export default function Comercial() {
                 <li className="flex items-start">
                   <span className="text-innova-accent font-bold mr-3">OK</span>
                   <div>
-                    <p className="font-bold">Diseños Redundantes</p>
+                    <p className="font-bold">Disenos Redundantes</p>
                     <p className="text-blue-100 text-sm">Sistemas de fuerza ininterrumpible con multiples caminos de alimentacion</p>
                   </div>
                 </li>
