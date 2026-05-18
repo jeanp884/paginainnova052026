@@ -196,10 +196,10 @@ export default function Contacto() {
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-innova-accent"
                   >
                     <option value="">Selecciona un sector</option>
+                    <option value="residencial">Residencial</option>
                     <option value="comercial">Comercial</option>
                     <option value="industrial">Industrial</option>
-                    <option value="utilities">Utilities</option>
-                    <option value="otro">Otro</option>
+                    <option value="agricultura">Agricultura</option>
                   </select>
                 </div>
 
@@ -216,9 +216,9 @@ export default function Contacto() {
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-innova-accent"
                   >
                     <option value="">Selecciona un servicio</option>
-                    <option value="subestaciones">Subestaciones Electricas</option>
-                    <option value="instalaciones">Instalaciones de Fuerza</option>
-                    <option value="mantenimiento">Mantenimiento Especializado</option>
+                    <option value="diseno">Diseño e Instalación Solar</option>
+                    <option value="almacenamiento">Almacenamiento en Baterías</option>
+                    <option value="mantenimiento">Mantenimiento y Soporte</option>
                     <option value="consulta">Consulta General</option>
                   </select>
                 </div>

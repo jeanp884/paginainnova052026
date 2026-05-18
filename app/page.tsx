@@ -143,27 +143,27 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             <CaseCard
               id="caso-1"
-              title="Subestación 30 MVA"
-              sector="Industrial"
-              service="Subestaciones"
-              image="/cases/subestacion-1.jpg"
-              description="Comisionamiento de subestación de transformadores de potencia en planta manufacturera"
+              title="Casa Residencial 10 kW"
+              sector="Residencial"
+              service="Instalaciones"
+              image="https://images.unsplash.com/photo-1570129477492-45f003313e78?w=600&q=80"
+              description="Sistema solar residencial con paneles de alta eficiencia y almacenamiento en baterías"
             />
             <CaseCard
               id="caso-2"
-              title="Centro Comercial Premium"
+              title="Centro Comercial 50 kW"
               sector="Comercial"
               service="Instalaciones"
-              image="/cases/comercial-1.jpg"
-              description="Sistema integral de fuerza para centro comercial de 5 pisos"
+              image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80"
+              description="Sistema solar para centro comercial con 120+ locales, reducción del 60% en factura"
             />
             <CaseCard
               id="caso-3"
-              title="Mantenimiento Predictivo"
-              sector="Utilities"
-              service="Mantenimiento"
-              image="/cases/utilities-1.jpg"
-              description="Programa de mantenimiento especializado para operador de red eléctrica"
+              title="Planta Industrial 200 kW"
+              sector="Industrial"
+              service="Instalaciones"
+              image="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&q=80"
+              description="Sistema solar hibrido con generador para operación 24/7 sin interrupciones"
             />
           </div>
           <div className="text-center">

@@ -5,7 +5,7 @@ export default function Empresa() {
     <>
       <HeroSection
         title="Sobre Innova Tech"
-        subtitle="Tu Socio en Soluciones de Ingenieria Electrica"
+        subtitle="Tu Socio en Soluciones de Energia Solar Fotovoltaica"
       />
 
       <section className="py-16 bg-white">
@@ -14,10 +14,10 @@ export default function Empresa() {
           <div className="max-w-4xl mx-auto mb-16">
             <h2 className="section-title mb-6">Nuestra Historia</h2>
             <p className="text-innova-neutral text-lg leading-relaxed mb-6">
-              Innova Tech es una empresa especializada en soluciones de ingenieria electrica con mas de 15 anos de experiencia sirviendo a empresas en los sectores comercial, industrial y utilities. Nuestro equipo de ingenieros certificados trabaja con pasion para entregar proyectos de excelencia que superan las expectativas de nuestros clientes.
+              Innova Tech es una empresa especializada en soluciones de energia solar fotovoltaica con mas de 15 anos de experiencia sirviendo a empresas en los sectores residencial, comercial, industrial y agricultura. Nuestro equipo de ingenieros certificados trabaja con pasion para entregar proyectos de excelencia que superan las expectativas de nuestros clientes.
             </p>
             <p className="text-innova-neutral text-lg leading-relaxed">
-              Nos especializamos en comisionamiento de subestaciones, instalaciones de fuerza, y programas de mantenimiento especializado. Cada proyecto es una oportunidad de demostrar nuestro compromiso con la calidad, la seguridad y la innovacion.
+              Nos especializamos en diseño e instalación de sistemas fotovoltaicos, almacenamiento en baterías, y programas de mantenimiento preventivo. Cada proyecto es una oportunidad de demostrar nuestro compromiso con la calidad, la sustentabilidad y la innovacion en energia renovable.
             </p>
           </div>
 
@@ -60,25 +60,25 @@ export default function Empresa() {
           <div className="mb-16">
             <h2 className="section-title mb-8">Nuestro Equipo</h2>
             <p className="text-innova-neutral mb-8 text-center max-w-2xl mx-auto">
-              Contamos con ingenieros especializados, tecnicos certificados y personal de apoyo con anos de experiencia en proyectos electricos complejos.
+              Contamos con ingenieros especializados en energia renovable, tecnicos certificados en fotovoltaica y personal de apoyo con anos de experiencia en sistemas solares complejos.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="w-32 h-32 mx-auto bg-innova-primary rounded-full flex items-center justify-center text-white text-5xl mb-4">
-                  [ENG]
+                  ☀️
                 </div>
                 <h3 className="font-bold text-innova-primary mb-2">Gerencia Tecnica</h3>
                 <p className="text-innova-neutral text-sm">
-                  Ingenieros con especializacion en sistemas de potencia y subestaciones
+                  Ingenieros con especializacion en sistemas fotovoltaicos y energia renovable
                 </p>
               </div>
               <div className="text-center">
                 <div className="w-32 h-32 mx-auto bg-innova-secondary rounded-full flex items-center justify-center text-white text-5xl mb-4">
-                  [TOOL]
+                  🔧
                 </div>
                 <h3 className="font-bold text-innova-primary mb-2">Equipo Operacional</h3>
                 <p className="text-innova-neutral text-sm">
-                  Tecnicos certificados en comisionamiento y mantenimiento electrico
+                  Tecnicos certificados en instalacion y mantenimiento de paneles solares
                 </p>
               </div>
               <div className="text-center">
